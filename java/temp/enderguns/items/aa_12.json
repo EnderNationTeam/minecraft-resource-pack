@@ -1,0 +1,10 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "enderguns:weapon/aa_12"
+  },
+  "fallback": {
+    "type": "model",
+    "model": "item/diamond_pickaxe"
+  }
+}

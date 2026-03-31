@@ -1,0 +1,135 @@
+{
+    "flashbanggg": {
+      "sounds": [
+        "minecraft:flashbanggg"]
+      },
+    "hitmarker": {
+      "sounds": [
+        "minecraft:hitmarker"]
+      },
+    "kill": {
+      "sounds": [
+        "minecraft:kill"]
+      },
+    "demonic": {
+      "sounds": [
+        "minecraft:demonic"]
+      },
+    "never": {
+      "sounds": [
+        "minecraft:never"]
+      },
+    "scare": {
+      "sounds": [
+        "minecraft:scare"]
+      },
+    "scare2": {
+      "sounds": [
+        "minecraft:scare2"]
+      },
+    "ssstik": {
+      "sounds": [
+        "minecraft:ssstik"]
+      },
+      "aa12": {
+        "sounds": [
+          "minecraft:aa12"]
+      },
+      "spas12": {
+        "sounds": [
+          "minecraft:spas12"]
+      },
+      "striker": {
+        "sounds": [
+          "minecraft:striker"]
+      },
+      "remington870": {
+        "sounds": [
+          "minecraft:remington870"]
+      },
+      "m1014": {
+        "sounds": [
+          "minecraft:m1014"]
+      },
+      "m98b": {
+        "sounds": [
+          "minecraft:m98b"]
+      },
+      "m39": {
+        "sounds": [
+          "minecraft:m39"]
+      },
+      "msr": {
+        "sounds": [
+          "minecraft:msr"]
+      },
+      "sv98": {
+        "sounds": [
+          "minecraft:sv98"]
+      },
+      "cz550": {
+        "sounds": [
+          "minecraft:cz550"]
+      },
+      "mp7": {
+        "sounds": [
+          "minecraft:mp7"]
+      },
+      "p90": {
+        "sounds": [
+          "minecraft:p90"]
+      },
+      "fal": {
+        "sounds": [
+          "minecraft:fal"]
+      },
+      "ak47": {
+        "sounds": [
+          "minecraft:ak47"]
+      },
+      "m16": {
+        "sounds": [
+          "minecraft:m16"]
+      },
+      "m9": {
+        "sounds": [
+          "minecraft:m9"]
+      },
+      "g17": {
+        "sounds": [
+          "minecraft:g17"]
+      },
+      "fiveseven": {
+        "sounds": [
+          "minecraft:fiveseven"]
+      },
+      "m1911": {
+        "sounds": [
+          "minecraft:m1911"]
+      },
+      "deserteagle": {
+        "sounds": [
+          "minecraft:deserteagle"]
+      },
+      "waitmusic": {
+        "sounds": [
+          "minecraft:waitmusic"]
+      },
+      "notification": {
+        "sounds": [
+          "minecraft:notification"]
+      },
+      "report_notification": {
+        "sounds": [
+          "minecraft:report_notification"]
+      },
+      "warn_notification": {
+        "sounds": [
+          "minecraft:warn_notification"]
+      },
+      "error_notification": {
+        "sounds": [
+          "minecraft:error_notification"]
+      }
+  }
+  

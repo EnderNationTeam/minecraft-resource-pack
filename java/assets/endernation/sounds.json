@@ -1,0 +1,17 @@
+{
+    "music_wait": {
+        "sounds": ["endernation:music_wait"]
+    },
+    "notification": {
+        "sounds": ["endernation:notification"]
+    },
+    "notification_report": {
+        "sounds": ["endernation:notification_report"]
+    },
+    "notification_warn": {
+        "sounds": ["endernation:notification_warn"]
+    },
+    "notification_error": {
+        "sounds": ["endernation:notification_error"]
+    }
+}

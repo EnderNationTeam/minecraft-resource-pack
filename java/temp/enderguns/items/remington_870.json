@@ -1,0 +1,10 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "enderguns:weapon/remington_870"
+  },
+  "fallback": {
+    "type": "model",
+    "model": "item/stone_pickaxe"
+  }
+}

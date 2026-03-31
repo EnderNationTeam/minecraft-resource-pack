@@ -1,0 +1,10 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "enderguns:weapon/m1014"
+  },
+  "fallback": {
+    "type": "model",
+    "model": "item/wooden_pickaxe"
+  }
+}

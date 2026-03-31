@@ -1,0 +1,10 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "enderguns:weapon/rocket_launcher"
+  },
+  "fallback": {
+    "type": "model",
+    "model": "item/golden_pickaxe"
+  }
+}

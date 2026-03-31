@@ -1,0 +1,10 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "enderguns:ammo/pistol_ammo"
+  },
+  "fallback": {
+    "type": "model",
+    "model": "item/golden_pickaxe"
+  }
+}

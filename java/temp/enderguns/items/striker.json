@@ -1,0 +1,10 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "enderguns:weapon/striker"
+  },
+  "fallback": {
+    "type": "model",
+    "model": "item/golden_pickaxe"
+  }
+}

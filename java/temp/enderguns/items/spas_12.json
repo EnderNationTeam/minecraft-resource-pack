@@ -1,0 +1,10 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "enderguns:weapon/spas_12"
+    },
+  "fallback": {
+    "type": "model",
+    "model": "item/iron_pickaxe"
+  }
+}
