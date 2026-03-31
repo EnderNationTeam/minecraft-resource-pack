@@ -1,0 +1,86 @@
+{
+    "demonic": {
+        "sounds": ["enderguns:granates/demonic"]
+    },
+    "flashbang": {
+        "sounds": ["enderguns:granates/flashbang"]
+    },
+    "scare2": {
+        "sounds": ["enderguns:granates/scare2"]
+    },
+    "scare": {
+        "sounds": ["enderguns:granates/scare"]
+    },
+    "ssstik": {
+        "sounds": ["enderguns:granates/ssstik"]
+    },
+    "deserteagle": {
+        "sounds": ["enderguns:pistols/deserteagle"]
+    },
+    "fiveseven": {
+        "sounds": ["enderguns:pistols/fiveseven"]
+    },
+    "g17": {
+        "sounds": ["enderguns:pistols/g17"]
+    },
+    "m9": {
+        "sounds": ["enderguns:pistols/m9"]
+    },
+    "m1911": {
+        "sounds": ["enderguns:pistols/m1911"]
+    },
+    "ak47": {
+        "sounds": ["enderguns:rifles/ak47"]
+    },
+    "fal": {
+        "sounds": ["enderguns:rifles/fal"]
+    },
+    "m16": {
+        "sounds": ["enderguns:rifles/m16"]
+    },
+    "mp7": {
+        "sounds": ["enderguns:rifles/mp7"]
+    },
+    "p90": {
+        "sounds": ["enderguns:rifles/p90"]
+    },
+    "aa12": {
+        "sounds": ["enderguns:shotguns/aa12"]
+    },
+    "m1014": {
+        "sounds": ["enderguns:shotguns/m1014"]
+    },
+    "remington870": {
+        "sounds": ["enderguns:shotguns/remington870"]
+    },
+    "spas12": {
+        "sounds": ["enderguns:shotguns/spas12"]
+    },
+    "striker": {
+        "sounds": ["enderguns:shotguns/striker"]
+    },
+    "cz550": {
+        "sounds": ["enderguns:snipers/cz550"]
+    },
+    "m39": {
+        "sounds": ["enderguns:snipers/m39"]
+    },
+    "m98b": {
+        "sounds": ["enderguns:snipers/m98b"]
+    },
+    "msr": {
+        "sounds": ["enderguns:snipers/msr"]
+    },
+    "sv98": {
+        "sounds": ["enderguns:snipers/sv98"]
+    },
+    "hitmarker": {
+        "sounds": ["enderguns:utils/hitmarker"]
+    },
+    "kill": {
+        "sounds": ["enderguns:utils/kill"]
+    },
+    "never": {
+        "sounds": ["enderguns:never"]
+    }
+}
