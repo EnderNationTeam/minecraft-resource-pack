@@ -1,18 +1,18 @@
 {
     "demonic": {
-        "sounds": ["enderguns:granates/demonic"]
+        "sounds": ["enderguns:utilities/demonic"]
     },
     "flashbang": {
-        "sounds": ["enderguns:granates/flashbang"]
+        "sounds": ["enderguns:utilities/flashbang"]
     },
     "scare2": {
-        "sounds": ["enderguns:granates/scare2"]
+        "sounds": ["enderguns:utilities/scare2"]
     },
     "scare": {
-        "sounds": ["enderguns:granates/scare"]
+        "sounds": ["enderguns:utilities/scare"]
     },
     "ssstik": {
-        "sounds": ["enderguns:granates/ssstik"]
+        "sounds": ["enderguns:utilities/ssstik"]
     },
     "deserteagle": {
         "sounds": ["enderguns:pistols/deserteagle"]
@@ -75,12 +75,9 @@
         "sounds": ["enderguns:snipers/sv98"]
     },
     "hitmarker": {
-        "sounds": ["enderguns:utils/hitmarker"]
+        "sounds": ["enderguns:hitmarker"]
     },
     "kill": {
-        "sounds": ["enderguns:utils/kill"]
-    },
-    "never": {
-        "sounds": ["enderguns:never"]
+        "sounds": ["enderguns:kill"]
     }
 }

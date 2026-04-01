@@ -1,17 +1,20 @@
 {
     "music_wait": {
-        "sounds": ["endernation:music_wait"]
+        "sounds": ["endernation:music/wait"]
+    },
+    "music_never": {
+        "sounds": ["endernation:music/never"]
     },
     "notification": {
-        "sounds": ["endernation:notification"]
+        "sounds": ["endernation:notification/info"]
     },
     "notification_report": {
-        "sounds": ["endernation:notification_report"]
+        "sounds": ["endernation:notification/report"]
     },
     "notification_warn": {
-        "sounds": ["endernation:notification_warn"]
+        "sounds": ["endernation:notification/warn"]
     },
     "notification_error": {
-        "sounds": ["endernation:notification_error"]
+        "sounds": ["endernation:notification/error"]
     }
 }

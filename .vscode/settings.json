@@ -1,0 +1,8 @@
+{
+    "json.schemas": [
+        {
+            "fileMatch": ["*.json"],
+            "url": "https://aexer0e.github.io/bedrock-schema/"
+        }
+    ]
+}
