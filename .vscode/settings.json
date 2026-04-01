@@ -1,7 +1,14 @@
 {
+    "files.associations": {
+        "pack.mcmeta": "json"
+    },
     "json.schemas": [
         {
-            "fileMatch": ["*.json"],
+            "fileMatch": ["bedrock/**/*.json"],
+            "url": "https://aexer0e.github.io/bedrock-schema/"
+        },
+        {
+            "fileMatch": ["java/**/*.json"],
             "url": "https://aexer0e.github.io/bedrock-schema/"
         }
     ]
