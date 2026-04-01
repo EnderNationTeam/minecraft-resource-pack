@@ -1,0 +1,12 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "endernation:item/paper"
+    },
+    "overrides": [
+        {
+            "predicate": { "custom_model_data": 1 },
+            "model": "custom/endoflife/keys/copperkey"
+        }
+    ]
+}

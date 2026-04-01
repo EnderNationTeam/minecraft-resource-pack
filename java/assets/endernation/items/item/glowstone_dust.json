@@ -1,0 +1,6 @@
+{
+    "model": {
+        "type": "minecraft:model",
+        "model": "endernation:item/glowstone_dust"
+    }
+}
