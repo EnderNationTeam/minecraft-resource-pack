@@ -1,0 +1,301 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "GeyserMC Custom Item Mappings",
+    "description": "GeyserMC custom item mappings file (format_version 2) for mapping Java Edition items to Bedrock Edition custom items.",
+    "type": "object",
+    "required": ["format_version", "items"],
+    "additionalProperties": false,
+    "properties": {
+        "format_version": {
+            "type": "integer",
+            "description": "The format version of the mappings file. Must be 2.",
+            "const": 2
+        },
+        "items": {
+            "type": "object",
+            "description": "Object where each key is a Java item identifier (e.g. 'minecraft:flint') and each value is an array of custom item definitions.",
+            "additionalProperties": {
+                "type": "array",
+                "items": { "$ref": "#/definitions/definitionOrGroup" }
+            }
+        }
+    },
+    "definitions": {
+        "definitionOrGroup": {
+            "oneOf": [
+                { "$ref": "#/definitions/itemDefinition" },
+                { "$ref": "#/definitions/legacyDefinition" },
+                { "$ref": "#/definitions/groupDefinition" }
+            ]
+        },
+        "itemDefinition": {
+            "type": "object",
+            "description": "A single custom item definition for a Java item model (1.21.4+).",
+            "required": ["type", "model", "bedrock_identifier"],
+            "additionalProperties": false,
+            "properties": {
+                "type": { "type": "string", "const": "definition" },
+                "model": {
+                    "type": "string",
+                    "description": "The Java item model definition resource location (e.g. 'example:example_model')."
+                },
+                "bedrock_identifier": {
+                    "type": "string",
+                    "description": "The Bedrock item identifier. Cannot be in the 'minecraft' namespace. If no namespace, 'geyser_custom' is used."
+                },
+                "display_name": {
+                    "description": "The item's default display name. Can be a plain string or JSON text component.",
+                    "oneOf": [{ "type": "string" }, { "type": "object" }]
+                },
+                "bedrock_options": { "$ref": "#/definitions/bedrockOptions" },
+                "components": {
+                    "type": "object",
+                    "description": "Java item components to add or modify (e.g. minecraft:max_stack_size).",
+                    "additionalProperties": true
+                },
+                "remove_components": {
+                    "type": "array",
+                    "description": "List of Java item component names to remove.",
+                    "items": { "type": "string" }
+                },
+                "predicate": { "$ref": "#/definitions/predicateOrList" },
+                "predicate_strategy": {
+                    "type": "string",
+                    "description": "How multiple predicates are evaluated: 'and' (all must match) or 'or' (any must match).",
+                    "enum": ["and", "or"],
+                    "default": "and"
+                },
+                "priority": {
+                    "type": "integer",
+                    "description": "Optional priority for sorting this definition against others for the same item + model."
+                }
+            }
+        },
+        "legacyDefinition": {
+            "type": "object",
+            "description": "A single custom item definition using legacy custom_model_data (pre-1.21.4).",
+            "required": ["type", "custom_model_data", "bedrock_identifier"],
+            "additionalProperties": false,
+            "properties": {
+                "type": { "type": "string", "const": "legacy" },
+                "custom_model_data": {
+                    "type": "integer",
+                    "description": "The legacy custom model data value used to identify this item."
+                },
+                "bedrock_identifier": {
+                    "type": "string",
+                    "description": "The Bedrock item identifier."
+                },
+                "display_name": {
+                    "description": "The item's default display name.",
+                    "oneOf": [{ "type": "string" }, { "type": "object" }]
+                },
+                "bedrock_options": { "$ref": "#/definitions/bedrockOptions" },
+                "components": {
+                    "type": "object",
+                    "description": "Java item components to add or modify.",
+                    "additionalProperties": true
+                },
+                "remove_components": {
+                    "type": "array",
+                    "description": "List of Java item component names to remove.",
+                    "items": { "type": "string" }
+                }
+            }
+        },
+        "groupDefinition": {
+            "type": "object",
+            "description": "A group of custom item definitions.",
+            "required": ["type", "definitions"],
+            "additionalProperties": false,
+            "properties": {
+                "type": { "type": "string", "const": "group" },
+                "definitions": {
+                    "type": "array",
+                    "description": "The list of item definitions in this group.",
+                    "items": {
+                        "oneOf": [
+                            { "$ref": "#/definitions/itemDefinition" },
+                            { "$ref": "#/definitions/legacyDefinition" }
+                        ]
+                    }
+                }
+            }
+        },
+        "bedrockOptions": {
+            "type": "object",
+            "description": "Bedrock-specific options for the custom item.",
+            "additionalProperties": false,
+            "properties": {
+                "icon": {
+                    "type": "string",
+                    "description": "The icon shorthand from item_texture.json. Defaults to the Bedrock identifier."
+                },
+                "allow_offhand": {
+                    "type": "boolean",
+                    "description": "Whether the item can be held in the offhand. Defaults to true.",
+                    "default": true
+                },
+                "display_handheld": {
+                    "type": "boolean",
+                    "description": "Whether the item is displayed handheld (like tools/weapons). Defaults to false.",
+                    "default": false
+                },
+                "protection_value": {
+                    "type": "integer",
+                    "description": "Visual armor protection points shown when item is worn. Defaults to 0.",
+                    "default": 0
+                },
+                "creative_category": {
+                    "type": "string",
+                    "description": "The creative tab category. Required for items shown in recipe book.",
+                    "enum": [
+                        "none",
+                        "construction",
+                        "nature",
+                        "equipment",
+                        "items"
+                    ],
+                    "default": "none"
+                },
+                "creative_group": {
+                    "type": "string",
+                    "description": "The creative group within the category."
+                },
+                "tags": {
+                    "type": "array",
+                    "description": "Bedrock item tags for Molang expressions in resource packs.",
+                    "items": { "type": "string" }
+                }
+            }
+        },
+        "predicateOrList": {
+            "description": "A single predicate or a list of predicates.",
+            "oneOf": [
+                { "$ref": "#/definitions/predicate" },
+                {
+                    "type": "array",
+                    "items": { "$ref": "#/definitions/predicate" }
+                }
+            ]
+        },
+        "predicate": {
+            "oneOf": [
+                { "$ref": "#/definitions/conditionPredicate" },
+                { "$ref": "#/definitions/matchPredicate" },
+                { "$ref": "#/definitions/rangeDispatchPredicate" }
+            ]
+        },
+        "conditionPredicate": {
+            "type": "object",
+            "description": "Checks a boolean property.",
+            "required": ["type", "property"],
+            "additionalProperties": false,
+            "properties": {
+                "type": { "type": "string", "const": "condition" },
+                "property": {
+                    "type": "string",
+                    "enum": [
+                        "broken",
+                        "damaged",
+                        "custom_model_data",
+                        "has_component",
+                        "fishing_rod_cast"
+                    ],
+                    "description": "The boolean property to check."
+                },
+                "value": {
+                    "type": "boolean",
+                    "description": "The expected value. Defaults to true.",
+                    "default": true
+                },
+                "index": {
+                    "type": "integer",
+                    "description": "For 'custom_model_data': the flag index to check."
+                },
+                "component": {
+                    "type": "string",
+                    "description": "For 'has_component': the component name to check for."
+                },
+                "negate": {
+                    "type": "boolean",
+                    "description": "If true, the predicate result is inverted.",
+                    "default": false
+                }
+            }
+        },
+        "matchPredicate": {
+            "type": "object",
+            "description": "Checks a text-like property for equality.",
+            "required": ["type", "property", "value"],
+            "additionalProperties": false,
+            "properties": {
+                "type": { "type": "string", "const": "match" },
+                "property": {
+                    "type": "string",
+                    "enum": [
+                        "charge_type",
+                        "trim_material",
+                        "context_dimension",
+                        "custom_model_data"
+                    ],
+                    "description": "The text property to match."
+                },
+                "value": {
+                    "description": "The value to match against."
+                },
+                "index": {
+                    "type": "integer",
+                    "description": "For 'custom_model_data': the string index to check."
+                },
+                "negate": {
+                    "type": "boolean",
+                    "description": "If true, the predicate result is inverted.",
+                    "default": false
+                }
+            }
+        },
+        "rangeDispatchPredicate": {
+            "type": "object",
+            "description": "Checks a numeric property against a threshold.",
+            "required": ["type", "property", "threshold"],
+            "additionalProperties": false,
+            "properties": {
+                "type": { "type": "string", "const": "range_dispatch" },
+                "property": {
+                    "type": "string",
+                    "enum": [
+                        "bundle_fullness",
+                        "damage",
+                        "count",
+                        "custom_model_data"
+                    ],
+                    "description": "The numeric property to check."
+                },
+                "threshold": {
+                    "type": "number",
+                    "description": "The minimum value required for this predicate to return true."
+                },
+                "scale": {
+                    "type": "number",
+                    "description": "Factor to scale the property value by before comparing. Defaults to 1.0.",
+                    "default": 1.0
+                },
+                "normalize": {
+                    "type": "boolean",
+                    "description": "Whether to normalize the property value before comparing. Defaults to false.",
+                    "default": false
+                },
+                "index": {
+                    "type": "integer",
+                    "description": "For 'custom_model_data': the float index to check."
+                },
+                "negate": {
+                    "type": "boolean",
+                    "description": "If true, the predicate result is inverted.",
+                    "default": false
+                }
+            }
+        }
+    }
+}

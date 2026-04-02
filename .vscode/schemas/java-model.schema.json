@@ -1,0 +1,207 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Minecraft Java Block/Item Model",
+    "description": "Defines a model used for blocks or items in Minecraft Java Edition.",
+    "type": "object",
+    "properties": {
+        "parent": {
+            "type": "string",
+            "description": "Loads a different model from the given path, in the form of a resource location. If both 'parent' and 'elements' are set, the 'elements' tag overrides the 'elements' tag from the previous model."
+        },
+        "ambientocclusion": {
+            "type": "boolean",
+            "description": "Whether to use ambient occlusion.",
+            "default": true
+        },
+        "display": {
+            "type": "object",
+            "description": "Holds the different places where item models are displayed.",
+            "properties": {
+                "thirdperson_righthand": { "$ref": "#/definitions/display" },
+                "thirdperson_lefthand": { "$ref": "#/definitions/display" },
+                "firstperson_righthand": { "$ref": "#/definitions/display" },
+                "firstperson_lefthand": { "$ref": "#/definitions/display" },
+                "gui": { "$ref": "#/definitions/display" },
+                "head": { "$ref": "#/definitions/display" },
+                "ground": { "$ref": "#/definitions/display" },
+                "fixed": { "$ref": "#/definitions/display" }
+            },
+            "additionalProperties": false
+        },
+        "textures": {
+            "type": "object",
+            "description": "Holds the textures of the model. Each value is a resource location or texture variable.",
+            "additionalProperties": {
+                "type": "string"
+            }
+        },
+        "elements": {
+            "type": "array",
+            "description": "Contains all the elements of the model.",
+            "items": { "$ref": "#/definitions/element" }
+        },
+        "groups": {
+            "type": "array",
+            "description": "Optional group definitions (for editor tools like Blockbench).",
+            "items": {}
+        },
+        "gui_light": {
+            "type": "string",
+            "description": "Whether to render item in the GUI using 'front' or 'side' lighting.",
+            "enum": ["front", "side"]
+        },
+        "overrides": {
+            "type": "array",
+            "description": "(Legacy) List of model overrides based on predicates.",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "predicate": {
+                        "type": "object",
+                        "additionalProperties": { "type": "number" }
+                    },
+                    "model": { "type": "string" }
+                },
+                "required": ["predicate", "model"]
+            }
+        },
+        "credit": {
+            "type": "string",
+            "description": "Optional credit/author string (used by editors like Blockbench)."
+        },
+        "texture_size": {
+            "type": "array",
+            "description": "Overrides the texture size for UV calculations (Blockbench extension).",
+            "items": { "type": "number" },
+            "minItems": 2,
+            "maxItems": 2
+        }
+    },
+    "definitions": {
+        "display": {
+            "type": "object",
+            "description": "Specifies the rotation, translation, and scale for an item in a display slot.",
+            "properties": {
+                "rotation": {
+                    "type": "array",
+                    "items": { "type": "number" },
+                    "minItems": 3,
+                    "maxItems": 3,
+                    "description": "[x, y, z] rotation in degrees."
+                },
+                "translation": {
+                    "type": "array",
+                    "items": { "type": "number" },
+                    "minItems": 3,
+                    "maxItems": 3,
+                    "description": "[x, y, z] translation. Values are clamped between -80 and 80."
+                },
+                "scale": {
+                    "type": "array",
+                    "items": { "type": "number" },
+                    "minItems": 3,
+                    "maxItems": 3,
+                    "description": "[x, y, z] scale. Values are clamped between -4 and 4."
+                }
+            },
+            "additionalProperties": false
+        },
+        "element": {
+            "type": "object",
+            "description": "A cubic element of the model.",
+            "properties": {
+                "from": {
+                    "type": "array",
+                    "items": { "type": "number" },
+                    "minItems": 3,
+                    "maxItems": 3,
+                    "description": "Start point of the cuboid [x, y, z]. Values must be between -16 and 32."
+                },
+                "to": {
+                    "type": "array",
+                    "items": { "type": "number" },
+                    "minItems": 3,
+                    "maxItems": 3,
+                    "description": "End point of the cuboid [x, y, z]. Values must be between -16 and 32."
+                },
+                "rotation": {
+                    "type": "object",
+                    "description": "Rotation of the element.",
+                    "properties": {
+                        "origin": {
+                            "type": "array",
+                            "items": { "type": "number" },
+                            "minItems": 3,
+                            "maxItems": 3
+                        },
+                        "axis": {
+                            "type": "string",
+                            "enum": ["x", "y", "z"]
+                        },
+                        "angle": {
+                            "type": "number",
+                            "enum": [-45, -22.5, 0, 22.5, 45]
+                        },
+                        "rescale": {
+                            "type": "boolean",
+                            "default": false
+                        }
+                    },
+                    "required": ["origin", "axis", "angle"],
+                    "additionalProperties": false
+                },
+                "shade": {
+                    "type": "boolean",
+                    "description": "Whether to render shadows on the element.",
+                    "default": true
+                },
+                "faces": {
+                    "type": "object",
+                    "description": "Holds all the faces of the element.",
+                    "properties": {
+                        "down": { "$ref": "#/definitions/face" },
+                        "up": { "$ref": "#/definitions/face" },
+                        "north": { "$ref": "#/definitions/face" },
+                        "south": { "$ref": "#/definitions/face" },
+                        "west": { "$ref": "#/definitions/face" },
+                        "east": { "$ref": "#/definitions/face" }
+                    },
+                    "additionalProperties": false
+                }
+            },
+            "required": ["from", "to"]
+        },
+        "face": {
+            "type": "object",
+            "description": "A face of a model element.",
+            "properties": {
+                "uv": {
+                    "type": "array",
+                    "description": "[x1, y1, x2, y2] UV coordinates.",
+                    "items": { "type": "number" },
+                    "minItems": 4,
+                    "maxItems": 4
+                },
+                "texture": {
+                    "type": "string",
+                    "description": "The texture to use, as a texture variable prefixed with '#'."
+                },
+                "cullface": {
+                    "type": "string",
+                    "description": "Face direction to cull when the block touching it is opaque.",
+                    "enum": ["down", "up", "north", "south", "west", "east"]
+                },
+                "rotation": {
+                    "type": "integer",
+                    "description": "Rotation of the texture in increments of 90 degrees.",
+                    "enum": [0, 90, 180, 270]
+                },
+                "tintindex": {
+                    "type": "integer",
+                    "description": "Enables tint on this face. The value is an index into the tint array."
+                }
+            },
+            "required": ["texture"]
+        }
+    }
+}

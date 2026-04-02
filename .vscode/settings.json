@@ -8,8 +8,28 @@
             "url": "https://aexer0e.github.io/bedrock-schema/"
         },
         {
-            "fileMatch": ["java/**/*.json"],
-            "url": "https://aexer0e.github.io/bedrock-schema/"
+            "fileMatch": ["**/pack.mcmeta"],
+            "url": "https://www.schemastore.org/minecraft-pack-mcmeta.json"
+        },
+        {
+            "fileMatch": ["**/assets/*/sounds.json"],
+            "url": "https://raw.githubusercontent.com/AxoCode/json-schema/master/minecraft/sounds.json"
+        },
+        {
+            "fileMatch": ["**/assets/*/lang/*.json"],
+            "url": "https://www.schemastore.org/minecraft-lang.json"
+        },
+        {
+            "fileMatch": ["java/assets/*/items/**/*.json"],
+            "url": "./.vscode/schemas/java-item-definition.schema.json"
+        },
+        {
+            "fileMatch": ["java/assets/*/models/**/*.json"],
+            "url": "./.vscode/schemas/java-model.schema.json"
+        },
+        {
+            "fileMatch": ["geysermc/**/*.json"],
+            "url": "./.vscode/schemas/geysermc-mappings.schema.json"
         }
     ]
 }

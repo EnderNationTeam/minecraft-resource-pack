@@ -1,0 +1,183 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Minecraft Java Item Definition",
+    "description": "Defines how an item is rendered in Minecraft Java Edition 1.21.4+",
+    "type": "object",
+    "properties": {
+        "model": {
+            "description": "The model selector for this item.",
+            "$ref": "#/definitions/modelSelector"
+        },
+        "hand_animation_on_swap": {
+            "description": "If false, disables the hand animation when the item is swapped.",
+            "type": "boolean",
+            "default": true
+        }
+    },
+    "required": ["model"],
+    "additionalProperties": false,
+    "definitions": {
+        "modelSelector": {
+            "oneOf": [
+                { "$ref": "#/definitions/modelSelectorModel" },
+                { "$ref": "#/definitions/modelSelectorComposite" },
+                { "$ref": "#/definitions/modelSelectorCondition" },
+                { "$ref": "#/definitions/modelSelectorSelect" },
+                { "$ref": "#/definitions/modelSelectorRangeDispatch" },
+                { "$ref": "#/definitions/modelSelectorSpecial" },
+                { "$ref": "#/definitions/modelSelectorBundleSelectedItem" },
+                { "$ref": "#/definitions/modelSelectorEmpty" }
+            ]
+        },
+        "modelSelectorModel": {
+            "type": "object",
+            "description": "References a model file.",
+            "properties": {
+                "type": { "type": "string", "const": "minecraft:model" },
+                "model": {
+                    "type": "string",
+                    "description": "Resource location of the model (e.g. 'minecraft:item/diamond_sword')."
+                },
+                "tints": {
+                    "type": "array",
+                    "description": "Optional list of tint sources.",
+                    "items": { "$ref": "#/definitions/tintSource" }
+                }
+            },
+            "required": ["type", "model"],
+            "additionalProperties": false
+        },
+        "modelSelectorComposite": {
+            "type": "object",
+            "description": "Renders multiple models layered on top of each other.",
+            "properties": {
+                "type": { "type": "string", "const": "minecraft:composite" },
+                "models": {
+                    "type": "array",
+                    "items": { "$ref": "#/definitions/modelSelector" }
+                }
+            },
+            "required": ["type", "models"],
+            "additionalProperties": false
+        },
+        "modelSelectorCondition": {
+            "type": "object",
+            "description": "Chooses between two models based on a boolean property.",
+            "properties": {
+                "type": { "type": "string", "const": "minecraft:condition" },
+                "property": { "type": "string" },
+                "on_true": { "$ref": "#/definitions/modelSelector" },
+                "on_false": { "$ref": "#/definitions/modelSelector" }
+            },
+            "required": ["type", "property", "on_true", "on_false"],
+            "additionalProperties": false
+        },
+        "modelSelectorSelect": {
+            "type": "object",
+            "description": "Selects a model based on a string/enum property.",
+            "properties": {
+                "type": { "type": "string", "const": "minecraft:select" },
+                "property": { "type": "string" },
+                "cases": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "when": {},
+                            "model": { "$ref": "#/definitions/modelSelector" }
+                        },
+                        "required": ["when", "model"]
+                    }
+                },
+                "fallback": { "$ref": "#/definitions/modelSelector" }
+            },
+            "required": ["type", "property", "cases"],
+            "additionalProperties": false
+        },
+        "modelSelectorRangeDispatch": {
+            "type": "object",
+            "description": "Selects a model based on a numeric range property.",
+            "properties": {
+                "type": {
+                    "type": "string",
+                    "const": "minecraft:range_dispatch"
+                },
+                "property": { "type": "string" },
+                "scale": { "type": "number" },
+                "fallback": { "$ref": "#/definitions/modelSelector" },
+                "entries": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "threshold": { "type": "number" },
+                            "model": { "$ref": "#/definitions/modelSelector" }
+                        },
+                        "required": ["threshold", "model"]
+                    }
+                }
+            },
+            "required": ["type", "property", "entries"],
+            "additionalProperties": false
+        },
+        "modelSelectorSpecial": {
+            "type": "object",
+            "description": "Renders a special built-in model.",
+            "properties": {
+                "type": { "type": "string", "const": "minecraft:special" },
+                "base": { "type": "string" },
+                "model": {
+                    "type": "object",
+                    "properties": {
+                        "type": { "type": "string" }
+                    },
+                    "required": ["type"]
+                }
+            },
+            "required": ["type", "base", "model"],
+            "additionalProperties": false
+        },
+        "modelSelectorBundleSelectedItem": {
+            "type": "object",
+            "description": "Renders the selected item inside a bundle.",
+            "properties": {
+                "type": {
+                    "type": "string",
+                    "const": "minecraft:bundle/selected_item"
+                }
+            },
+            "required": ["type"],
+            "additionalProperties": false
+        },
+        "modelSelectorEmpty": {
+            "type": "object",
+            "description": "Renders nothing.",
+            "properties": {
+                "type": { "type": "string", "const": "minecraft:empty" }
+            },
+            "required": ["type"],
+            "additionalProperties": false
+        },
+        "tintSource": {
+            "type": "object",
+            "description": "A tint source applied to a model layer.",
+            "properties": {
+                "type": {
+                    "type": "string",
+                    "enum": [
+                        "minecraft:constant",
+                        "minecraft:dye",
+                        "minecraft:grass",
+                        "minecraft:firework",
+                        "minecraft:potion",
+                        "minecraft:map_color",
+                        "minecraft:team",
+                        "minecraft:custom_model_data"
+                    ]
+                },
+                "value": {}
+            },
+            "required": ["type"]
+        }
+    }
+}
