@@ -5,19 +5,19 @@
     "json.schemas": [
         {
             "fileMatch": ["bedrock/**/*.json"],
-            "url": "https://aexer0e.github.io/bedrock-schema/"
+            "url": "./.vscode/schemas/bedrock-schema.json"
         },
         {
             "fileMatch": ["**/pack.mcmeta"],
-            "url": "https://www.schemastore.org/minecraft-pack-mcmeta.json"
+            "url": "./.vscode/schemas/minecraft-pack-mcmeta.json"
         },
         {
             "fileMatch": ["**/assets/*/sounds.json"],
-            "url": "https://raw.githubusercontent.com/AxoCode/json-schema/master/minecraft/sounds.json"
+            "url": "./.vscode/schemas/sounds.json"
         },
         {
             "fileMatch": ["**/assets/*/lang/*.json"],
-            "url": "https://www.schemastore.org/minecraft-lang.json"
+            "url": "./.vscode/schemas/minecraft-lang.json"
         },
         {
             "fileMatch": ["java/assets/*/items/**/*.json"],
