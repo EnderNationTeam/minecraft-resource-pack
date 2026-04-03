@@ -1,6 +1,6 @@
 {
     "model": {
         "type": "minecraft:model",
-        "model": "enderguns:snipers/sv98"
+        "model": "enderguns:item/snipers/sv98"
     }
 }

@@ -1,7 +1,7 @@
 {
     "credit": "Model generated using MrCrayfish's Model Creator (http://mrcrayfish.com/modelcreator/)",
     "textures": {
-        "0": "enderguns:ammo/pistol_ammo"
+        "0": "enderguns:item/ammo/pistol_ammo"
     },
     "elements": [
         {

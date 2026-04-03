@@ -2,7 +2,7 @@
     "credit": "Made by SrDarmith - YouTube: Mainclay",
     "texture_size": [64, 64],
     "textures": {
-        "4": "enderguns:snipers/sv98"
+        "4": "enderguns:item/snipers/sv98"
     },
     "elements": [
         {

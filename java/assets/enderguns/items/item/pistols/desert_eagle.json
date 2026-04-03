@@ -1,6 +1,6 @@
 {
     "model": {
         "type": "minecraft:model",
-        "model": "enderguns:pistols/desert_eagle"
+        "model": "enderguns:item/pistols/desert_eagle"
     }
 }

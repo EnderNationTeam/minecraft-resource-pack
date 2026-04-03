@@ -1,6 +1,6 @@
 {
     "model": {
         "type": "minecraft:model",
-        "model": "enderguns:shotguns/remington_870"
+        "model": "enderguns:item/shotguns/remington_870"
     }
 }

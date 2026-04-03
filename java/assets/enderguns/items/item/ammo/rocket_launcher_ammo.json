@@ -1,6 +1,6 @@
 {
     "model": {
         "type": "minecraft:model",
-        "model": "enderguns:ammo/rocket_launcher_ammo"
+        "model": "enderguns:item/ammo/rocket_launcher_ammo"
     }
 }

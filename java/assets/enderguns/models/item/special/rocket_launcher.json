@@ -2,7 +2,7 @@
     "credit": "Made by SrDarmith - YouTube: Mainclay",
     "texture_size": [64, 64],
     "textures": {
-        "2": "enderguns:special/rocket_launcher"
+        "2": "enderguns:item/special/rocket_launcher"
     },
     "elements": [
         {

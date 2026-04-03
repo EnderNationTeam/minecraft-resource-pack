@@ -1,6 +1,6 @@
 {
     "model": {
         "type": "minecraft:model",
-        "model": "enderguns:shotguns/aa_12"
+        "model": "enderguns:item/shotguns/aa_12"
     }
 }

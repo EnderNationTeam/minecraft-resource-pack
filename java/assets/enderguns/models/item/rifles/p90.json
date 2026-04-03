@@ -2,8 +2,8 @@
     "credit": "Made by SrDarmith - YouTube: Mainclay",
     "texture_size": [32, 32],
     "textures": {
-        "4": "enderguns:rifles/p90",
-        "particle": "enderguns:rifles/p90"
+        "4": "enderguns:item/rifles/p90",
+        "particle": "enderguns:item/rifles/p90"
     },
     "elements": [
         {

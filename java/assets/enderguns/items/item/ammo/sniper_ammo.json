@@ -1,6 +1,6 @@
 {
     "model": {
         "type": "minecraft:model",
-        "model": "enderguns:ammo/sniper_ammo"
+        "model": "enderguns:item/ammo/sniper_ammo"
     }
 }
