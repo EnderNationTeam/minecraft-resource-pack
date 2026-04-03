@@ -1,7 +1,8 @@
 {
     "credit": "Made by SrDarmith - YouTube: Mainclay",
     "textures": {
-        "2": "enderguns:item/rifles/fal"
+        "2": "enderguns:item/rifles/fal",
+        "particle": "enderguns:item/rifles/fal"
     },
     "elements": [
         {

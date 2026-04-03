@@ -2,7 +2,8 @@
     "credit": "Made by SrDarmith - YouTube: Mainclay",
     "texture_size": [64, 64],
     "textures": {
-        "4": "enderguns:item/snipers/m89b"
+        "4": "enderguns:item/snipers/m89b",
+        "particle": "enderguns:item/snipers/m89b"
     },
     "elements": [
         {

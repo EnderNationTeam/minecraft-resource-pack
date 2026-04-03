@@ -1,6 +1,7 @@
 {
     "parent": "minecraft:item/generated",
     "textures": {
-        "layer0": "enderguns:item/utilities/flashbang"
+        "layer0": "enderguns:item/utilities/flashbang",
+        "particle": "enderguns:item/utilities/flashbang"
     }
 }

@@ -2,7 +2,8 @@
     "credit": "Made by MadstonMagic, using Cubik Pro & Blockbench",
     "texture_size": [8, 8],
     "textures": {
-        "3": "enderguns:item/special/bullet"
+        "3": "enderguns:item/special/bullet",
+        "particle": "enderguns:item/special/bullet"
     },
     "elements": [
         {

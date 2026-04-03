@@ -2,7 +2,8 @@
     "credit": "Made by SrDarmith - YouTube: Mainclay",
     "texture_size": [64, 64],
     "textures": {
-        "4": "enderguns:item/snipers/cz_550"
+        "4": "enderguns:item/snipers/cz_550",
+        "particle": "enderguns:item/snipers/cz_550"
     },
     "elements": [
         {

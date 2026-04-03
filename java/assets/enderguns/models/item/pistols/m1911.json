@@ -2,7 +2,8 @@
     "credit": "Made by SrDarmith - YouTube: Mainclay",
     "texture_size": [32, 32],
     "textures": {
-        "3": "enderguns:item/pistols/m1911"
+        "3": "enderguns:item/pistols/m1911",
+        "particle": "enderguns:item/pistols/m1911"
     },
     "elements": [
         {

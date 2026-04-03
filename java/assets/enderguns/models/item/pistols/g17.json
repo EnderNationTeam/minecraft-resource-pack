@@ -2,7 +2,8 @@
     "credit": "Made by SrDarmith - YouTube: Mainclay",
     "texture_size": [32, 32],
     "textures": {
-        "2": "enderguns:item/pistols/g17"
+        "2": "enderguns:item/pistols/g17",
+        "particle": "enderguns:item/pistols/g17"
     },
     "elements": [
         {

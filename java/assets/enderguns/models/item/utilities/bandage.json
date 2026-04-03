@@ -1,6 +1,7 @@
 {
     "parent": "minecraft:item/generated",
     "textures": {
-        "layer0": "enderguns:item/utilities/bandage"
+        "layer0": "enderguns:item/utilities/bandage",
+        "particle": "enderguns:item/utilities/bandage"
     }
 }

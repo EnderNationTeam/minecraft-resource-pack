@@ -1,6 +1,7 @@
 {
     "parent": "minecraft:item/generated",
     "textures": {
-        "layer0": "enderguns:item/utilities/grenade"
+        "layer0": "enderguns:item/utilities/grenade",
+        "particle": "enderguns:item/utilities/grenade"
     }
 }

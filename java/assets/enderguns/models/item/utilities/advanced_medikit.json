@@ -1,6 +1,7 @@
 {
     "parent": "minecraft:item/generated",
     "textures": {
-        "layer0": "enderguns:item/utilities/advanced_medikit"
+        "layer0": "enderguns:item/utilities/advanced_medikit",
+        "particle": "enderguns:item/utilities/advanced_medikit"
     }
 }

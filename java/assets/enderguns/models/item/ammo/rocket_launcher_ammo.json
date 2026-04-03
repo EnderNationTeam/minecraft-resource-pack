@@ -1,6 +1,7 @@
 {
     "parent": "minecraft:item/generated",
     "textures": {
-        "layer0": "enderguns:item/ammo/rocket_launcher_ammo"
+        "layer0": "enderguns:item/ammo/rocket_launcher_ammo",
+        "particle": "enderguns:item/ammo/rocket_launcher_ammo"
     }
 }

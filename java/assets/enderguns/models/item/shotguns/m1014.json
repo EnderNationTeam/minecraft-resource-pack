@@ -2,7 +2,8 @@
     "credit": "Made by SrDarmith - YouTube: Mainclay",
     "texture_size": [32, 32],
     "textures": {
-        "2": "enderguns:item/shotguns/m1014"
+        "2": "enderguns:item/shotguns/m1014",
+        "particle": "enderguns:item/shotguns/m1014"
     },
     "elements": [
         {

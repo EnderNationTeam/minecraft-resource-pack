@@ -2,7 +2,8 @@
     "credit": "Made by SrDarmith - YouTube: Mainclay",
     "texture_size": [32, 32],
     "textures": {
-        "2": "enderguns:item/shotguns/spas_12"
+        "2": "enderguns:item/shotguns/spas_12",
+        "particle": "enderguns:item/shotguns/spas_12"
     },
     "elements": [
         {

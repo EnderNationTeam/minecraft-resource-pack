@@ -2,7 +2,8 @@
     "credit": "Made by SrDarmith - YouTube: Mainclay",
     "texture_size": [32, 32],
     "textures": {
-        "2": "enderguns:item/rifles/ak_47"
+        "2": "enderguns:item/rifles/ak_47",
+        "particle": "enderguns:item/rifles/ak_47"
     },
     "elements": [
         {

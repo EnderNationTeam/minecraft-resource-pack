@@ -2,7 +2,8 @@
     "credit": "Made by SrDarmith - YouTube: Mainclay",
     "texture_size": [32, 32],
     "textures": {
-        "3": "enderguns:item/shotguns/remington_870"
+        "3": "enderguns:item/shotguns/remington_870",
+        "particle": "enderguns:item/shotguns/remington_870"
     },
     "elements": [
         {
