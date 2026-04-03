@@ -1,32 +1,29 @@
 {
-  "notification": {
-    "sounds": ["endernation:notification/info"]
-  },
-  "notification_report": {
-    "sounds": ["endernation:notification/report"]
-  },
-  "notification_warn": {
-    "sounds": ["endernation:notification/warn"]
-  },
-  "notification_error": {
-    "sounds": ["endernation:notification/error"]
-  },
-  "music_wait": {
-    "sounds": ["endernation:music/wait"]
-  },
-  "music_never": {
-    "sounds": ["endernation:music/never"]
-  },
-  "scare2": {
-    "sounds": ["endernation:board/scare2"]
-  },
-  "scare": {
-    "sounds": ["endernation:board/scare"]
-  },
-  "ssstik": {
-    "sounds": ["endernation:board/ssstik"]
-  },
-  "demonic": {
-    "sounds": ["endernation:board/demonic"]
-  }
+    "notification": {
+        "sounds": ["endernation:notification/info"]
+    },
+    "notification_report": {
+        "sounds": ["endernation:notification/report"]
+    },
+    "notification_warn": {
+        "sounds": ["endernation:notification/warn"]
+    },
+    "notification_error": {
+        "sounds": ["endernation:notification/error"]
+    },
+    "music_wait": {
+        "sounds": ["endernation:music/wait"]
+    },
+    "music_never": {
+        "sounds": ["endernation:music/never"]
+    },
+    "scare": {
+        "sounds": ["endernation:board/scare"]
+    },
+    "ssstik": {
+        "sounds": ["endernation:board/ssstik"]
+    },
+    "demonic": {
+        "sounds": ["endernation:board/demonic"]
+    }
 }
