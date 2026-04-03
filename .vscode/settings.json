@@ -5,31 +5,31 @@
     "json.schemas": [
         {
             "fileMatch": ["bedrock/**/*.json"],
-            "url": "./.vscode/schemas/bedrock-schema.json"
+            "url": "./schemas/bedrock-schema.json"
         },
         {
             "fileMatch": ["**/pack.mcmeta"],
-            "url": "./.vscode/schemas/minecraft-pack-mcmeta.json"
+            "url": "./schemas/minecraft-pack-mcmeta.json"
         },
         {
             "fileMatch": ["**/assets/*/sounds.json"],
-            "url": "./.vscode/schemas/sounds.json"
+            "url": "./schemas/sounds.json"
         },
         {
             "fileMatch": ["**/assets/*/lang/*.json"],
-            "url": "./.vscode/schemas/minecraft-lang.json"
+            "url": "./schemas/minecraft-lang.json"
         },
         {
             "fileMatch": ["java/assets/*/items/**/*.json"],
-            "url": "./.vscode/schemas/java-item-definition.schema.json"
+            "url": "./schemas/java-item-definition.schema.json"
         },
         {
             "fileMatch": ["java/assets/*/models/**/*.json"],
-            "url": "./.vscode/schemas/java-model.schema.json"
+            "url": "./schemas/java-model.schema.json"
         },
         {
             "fileMatch": ["geysermc/**/*.json"],
-            "url": "./.vscode/schemas/geysermc-mappings.schema.json"
+            "url": "./schemas/geysermc-mappings.schema.json"
         }
     ]
 }

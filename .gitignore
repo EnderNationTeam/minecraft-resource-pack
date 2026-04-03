@@ -13,7 +13,6 @@ Desktop.ini
 # --- VS Code local state ---
 .vscode/*.log
 .vscode/.ropeproject/
-.idea/
 
 # --- IntelliJ / JetBrains ---
 .idea/
@@ -34,6 +33,9 @@ dist/
 build/
 out/
 release/
+
+# --- Dependency directories ---
+node_modules/
 
 # Pack exports
 *.zip
