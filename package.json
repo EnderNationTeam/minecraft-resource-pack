@@ -1,0 +1,32 @@
+{
+    "$schema": "https://www.schemastore.org/package.json",
+    "name": "minecraft-resource-pack",
+    "version": "1.0.0",
+    "description": "Offizielles EnderNation Resource Pack für Minecraft Java & Bedrock Edition",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "prepare": "husky",
+        "format": "prettier . --write --ignore-unknown",
+        "format:check": "prettier . --check --ignore-unknown"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/EnderNationTeam/minecraft-resource-pack.git"
+    },
+    "author": "KeksGauner",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/EnderNationTeam/minecraft-resource-pack/issues"
+    },
+    "homepage": "https://github.com/EnderNationTeam/minecraft-resource-pack#readme",
+    "devDependencies": {
+        "husky": "^9.1.7",
+        "lint-staged": "^16.4.0",
+        "prettier": "^3.8.1"
+    },
+    "engines": {
+        "node": ">=v22.11.0",
+        "pnpm": ">=10.15.0"
+    },
+    "packageManager": "pnpm@10.17.1"
+}
