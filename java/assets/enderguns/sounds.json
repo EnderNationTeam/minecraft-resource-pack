@@ -1,71 +1,71 @@
 {
-  "flashbang": {
-    "sounds": ["enderguns:utilities/flashbang"]
-  },
-  "deserteagle": {
-    "sounds": ["enderguns:pistols/deserteagle"]
-  },
-  "fiveseven": {
-    "sounds": ["enderguns:pistols/fiveseven"]
-  },
-  "g17": {
-    "sounds": ["enderguns:pistols/g17"]
-  },
-  "m9": {
-    "sounds": ["enderguns:pistols/m9"]
-  },
-  "m1911": {
-    "sounds": ["enderguns:pistols/m1911"]
-  },
-  "ak47": {
-    "sounds": ["enderguns:rifles/ak47"]
-  },
-  "fal": {
-    "sounds": ["enderguns:rifles/fal"]
-  },
-  "m16": {
-    "sounds": ["enderguns:rifles/m16"]
-  },
-  "mp7": {
-    "sounds": ["enderguns:rifles/mp7"]
-  },
-  "p90": {
-    "sounds": ["enderguns:rifles/p90"]
-  },
-  "aa12": {
-    "sounds": ["enderguns:shotguns/aa12"]
-  },
-  "m1014": {
-    "sounds": ["enderguns:shotguns/m1014"]
-  },
-  "remington870": {
-    "sounds": ["enderguns:shotguns/remington870"]
-  },
-  "spas12": {
-    "sounds": ["enderguns:shotguns/spas12"]
-  },
-  "striker": {
-    "sounds": ["enderguns:shotguns/striker"]
-  },
-  "cz550": {
-    "sounds": ["enderguns:snipers/cz550"]
-  },
-  "m39": {
-    "sounds": ["enderguns:snipers/m39"]
-  },
-  "m98b": {
-    "sounds": ["enderguns:snipers/m98b"]
-  },
-  "msr": {
-    "sounds": ["enderguns:snipers/msr"]
-  },
-  "sv98": {
-    "sounds": ["enderguns:snipers/sv98"]
-  },
-  "hitmarker": {
-    "sounds": ["enderguns:hitmarker"]
-  },
-  "kill": {
-    "sounds": ["enderguns:kill"]
-  }
+    "utilities.flashbang": {
+        "sounds": ["enderguns:utilities/flashbang"]
+    },
+    "pistols.deserteagle": {
+        "sounds": ["enderguns:pistols/deserteagle"]
+    },
+    "pistols.fiveseven": {
+        "sounds": ["enderguns:pistols/fiveseven"]
+    },
+    "pistols.g17": {
+        "sounds": ["enderguns:pistols/g17"]
+    },
+    "pistols.m9": {
+        "sounds": ["enderguns:pistols/m9"]
+    },
+    "pistols.m1911": {
+        "sounds": ["enderguns:pistols/m1911"]
+    },
+    "rifles.ak47": {
+        "sounds": ["enderguns:rifles/ak47"]
+    },
+    "rifles.fal": {
+        "sounds": ["enderguns:rifles/fal"]
+    },
+    "rifles.m16": {
+        "sounds": ["enderguns:rifles/m16"]
+    },
+    "rifles.mp7": {
+        "sounds": ["enderguns:rifles/mp7"]
+    },
+    "rifles.p90": {
+        "sounds": ["enderguns:rifles/p90"]
+    },
+    "shotguns.aa12": {
+        "sounds": ["enderguns:shotguns/aa12"]
+    },
+    "shotguns.m1014": {
+        "sounds": ["enderguns:shotguns/m1014"]
+    },
+    "shotguns.remington870": {
+        "sounds": ["enderguns:shotguns/remington870"]
+    },
+    "shotguns.spas12": {
+        "sounds": ["enderguns:shotguns/spas12"]
+    },
+    "shotguns.striker": {
+        "sounds": ["enderguns:shotguns/striker"]
+    },
+    "snipers.cz550": {
+        "sounds": ["enderguns:snipers/cz550"]
+    },
+    "snipers.m39": {
+        "sounds": ["enderguns:snipers/m39"]
+    },
+    "snipers.m98b": {
+        "sounds": ["enderguns:snipers/m98b"]
+    },
+    "snipers.msr": {
+        "sounds": ["enderguns:snipers/msr"]
+    },
+    "snipers.sv98": {
+        "sounds": ["enderguns:snipers/sv98"]
+    },
+    "enderguns.hitmarker": {
+        "sounds": ["enderguns:hitmarker"]
+    },
+    "enderguns.kill": {
+        "sounds": ["enderguns:kill"]
+    }
 }

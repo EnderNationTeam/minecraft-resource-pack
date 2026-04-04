@@ -1,4 +1,0 @@
-{
-    condition: "guicategory.enchantingtable",
-    fallback: "assets/minecraft/textures/gui/container/darkmodecontainers/enchanting_table.png"
-}

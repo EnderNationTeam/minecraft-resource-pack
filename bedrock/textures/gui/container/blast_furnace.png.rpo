@@ -1,4 +1,0 @@
-{
-    condition: "guicategory.blastfurnace",
-    fallback: "assets/minecraft/textures/gui/container/darkmodecontainers/blast_furnace.png"
-}

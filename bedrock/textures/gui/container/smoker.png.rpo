@@ -1,4 +1,0 @@
-{
-    condition: "guicategory.smoker",
-    fallback: "assets/minecraft/textures/gui/container/darkmodecontainers/smoker.png"
-}

@@ -1,4 +1,0 @@
-{
-    condition: "guicategory.stonecutter",
-    fallback: "assets/minecraft/textures/gui/container/darkmodecontainers/stonecutter.png"
-}

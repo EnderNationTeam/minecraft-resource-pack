@@ -1,4 +1,162 @@
 {
     "format_version": 2,
-    "items": {}
+    "items": {
+        "minecraft:stone": [
+            {
+                "bedrock_identifier": "enderguns:item/ammo/pistol_ammo",
+                "model": "enderguns:item/ammo/pistol_ammo",
+                "type": "definition"
+            },
+            {
+                "bedrock_identifier": "enderguns:item/ammo/rifle_ammo",
+                "model": "enderguns:item/ammo/rifle_ammo",
+                "type": "definition"
+            },
+            {
+                "bedrock_identifier": "enderguns:item/ammo/rocket_launcher_ammo",
+                "model": "enderguns:item/ammo/rocket_launcher_ammo",
+                "type": "definition"
+            },
+            {
+                "bedrock_identifier": "enderguns:item/ammo/shotgun_ammo",
+                "model": "enderguns:item/ammo/shotgun_ammo",
+                "type": "definition"
+            },
+            {
+                "bedrock_identifier": "enderguns:item/ammo/sniper_ammo",
+                "model": "enderguns:item/ammo/sniper_ammo",
+                "type": "definition"
+            },
+            {
+                "bedrock_identifier": "enderguns:item/pistols/desert_eagle",
+                "model": "enderguns:item/pistols/desert_eagle",
+                "type": "definition"
+            },
+            {
+                "bedrock_identifier": "enderguns:item/pistols/five_seven",
+                "model": "enderguns:item/pistols/five_seven",
+                "type": "definition"
+            },
+            {
+                "bedrock_identifier": "enderguns:item/pistols/g17",
+                "model": "enderguns:item/pistols/g17",
+                "type": "definition"
+            },
+            {
+                "bedrock_identifier": "enderguns:item/pistols/m1911",
+                "model": "enderguns:item/pistols/m1911",
+                "type": "definition"
+            },
+            {
+                "bedrock_identifier": "enderguns:item/pistols/m9",
+                "model": "enderguns:item/pistols/m9",
+                "type": "definition"
+            },
+            {
+                "bedrock_identifier": "enderguns:item/rifles/ak_47",
+                "model": "enderguns:item/rifles/ak_47",
+                "type": "definition"
+            },
+            {
+                "bedrock_identifier": "enderguns:item/rifles/fal",
+                "model": "enderguns:item/rifles/fal",
+                "type": "definition"
+            },
+            {
+                "bedrock_identifier": "enderguns:item/rifles/m16",
+                "model": "enderguns:item/rifles/m16",
+                "type": "definition"
+            },
+            {
+                "bedrock_identifier": "enderguns:item/rifles/mp7",
+                "model": "enderguns:item/rifles/mp7",
+                "type": "definition"
+            },
+            {
+                "bedrock_identifier": "enderguns:item/rifles/p90",
+                "model": "enderguns:item/rifles/p90",
+                "type": "definition"
+            },
+            {
+                "bedrock_identifier": "enderguns:item/shotguns/aa_12",
+                "model": "enderguns:item/shotguns/aa_12",
+                "type": "definition"
+            },
+            {
+                "bedrock_identifier": "enderguns:item/shotguns/m1014",
+                "model": "enderguns:item/shotguns/m1014",
+                "type": "definition"
+            },
+            {
+                "bedrock_identifier": "enderguns:item/shotguns/remington_870",
+                "model": "enderguns:item/shotguns/remington_870",
+                "type": "definition"
+            },
+            {
+                "bedrock_identifier": "enderguns:item/shotguns/spas_12",
+                "model": "enderguns:item/shotguns/spas_12",
+                "type": "definition"
+            },
+            {
+                "bedrock_identifier": "enderguns:item/shotguns/striker",
+                "model": "enderguns:item/shotguns/striker",
+                "type": "definition"
+            },
+            {
+                "bedrock_identifier": "enderguns:item/snipers/cz_550",
+                "model": "enderguns:item/snipers/cz_550",
+                "type": "definition"
+            },
+            {
+                "bedrock_identifier": "enderguns:item/snipers/m39",
+                "model": "enderguns:item/snipers/m39",
+                "type": "definition"
+            },
+            {
+                "bedrock_identifier": "enderguns:item/snipers/m98b",
+                "model": "enderguns:item/snipers/m98b",
+                "type": "definition"
+            },
+            {
+                "bedrock_identifier": "enderguns:item/snipers/msr",
+                "model": "enderguns:item/snipers/msr",
+                "type": "definition"
+            },
+            {
+                "bedrock_identifier": "enderguns:item/snipers/sv98",
+                "model": "enderguns:item/snipers/sv98",
+                "type": "definition"
+            },
+            {
+                "bedrock_identifier": "enderguns:item/special/bullet",
+                "model": "enderguns:item/special/bullet",
+                "type": "definition"
+            },
+            {
+                "bedrock_identifier": "enderguns:item/special/rocket_launcher",
+                "model": "enderguns:item/special/rocket_launcher",
+                "type": "definition"
+            },
+            {
+                "bedrock_identifier": "enderguns:item/utilities/advanced_medikit",
+                "model": "enderguns:item/utilities/advanced_medikit",
+                "type": "definition"
+            },
+            {
+                "bedrock_identifier": "enderguns:item/utilities/bandage",
+                "model": "enderguns:item/utilities/bandage",
+                "type": "definition"
+            },
+            {
+                "bedrock_identifier": "enderguns:item/utilities/flashbang",
+                "model": "enderguns:item/utilities/flashbang",
+                "type": "definition"
+            },
+            {
+                "bedrock_identifier": "enderguns:item/utilities/grenade",
+                "model": "enderguns:item/utilities/grenade",
+                "type": "definition"
+            }
+        ]
+    }
 }

@@ -1,29 +1,29 @@
 {
-    "notification": {
+    "notification.info": {
         "sounds": ["endernation:notification/info"]
     },
-    "notification_report": {
+    "notification.report": {
         "sounds": ["endernation:notification/report"]
     },
-    "notification_warn": {
+    "notification.warn": {
         "sounds": ["endernation:notification/warn"]
     },
-    "notification_error": {
+    "notification.error": {
         "sounds": ["endernation:notification/error"]
     },
-    "music_wait": {
+    "music.wait": {
         "sounds": ["endernation:music/wait"]
     },
-    "music_never": {
+    "music.never": {
         "sounds": ["endernation:music/never"]
     },
-    "scare": {
+    "board.scare": {
         "sounds": ["endernation:board/scare"]
     },
-    "ssstik": {
+    "board.ssstik": {
         "sounds": ["endernation:board/ssstik"]
     },
-    "demonic": {
+    "board.demonic": {
         "sounds": ["endernation:board/demonic"]
     }
 }
