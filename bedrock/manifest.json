@@ -1,0 +1,18 @@
+{
+    "format_version": 1,
+    "header": {
+        "description": "§3Ender§bNation §a- §bResource Pack",
+        "name": "prepack",
+        "platform_locked": false,
+        "uuid": "6791afcd-6ff4-4548-917d-77df94ba6c3f",
+        "version": [0, 0, 1]
+    },
+    "modules": [
+        {
+            "description": "§3Ender§bNation §a- §bResource Pack",
+            "type": "resources",
+            "uuid": "02e6cebc-fa55-4388-8515-8fb56cb34d78",
+            "version": [0, 0, 1]
+        }
+    ]
+}
