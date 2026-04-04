@@ -1,15 +1,8 @@
 {
-    "files.associations": {
-        "pack.mcmeta": "json"
-    },
     "json.schemas": [
         {
             "fileMatch": ["bedrock/**/*.json"],
             "url": "./schemas/bedrock-schema.json"
-        },
-        {
-            "fileMatch": ["**/pack.mcmeta"],
-            "url": "./schemas/minecraft-pack-mcmeta.json"
         },
         {
             "fileMatch": ["**/assets/*/sounds.json"],

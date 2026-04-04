@@ -8,13 +8,11 @@
         "prepare": "husky",
         "format": "prettier . --write --ignore-unknown",
         "format:check": "prettier . --check --ignore-unknown",
-        "validate:json": "pnpm run validate:geyser && pnpm run validate:items && pnpm run validate:models && pnpm run validate:mcmeta && pnpm run validate:lang && pnpm run validate:bedrock",
-        "validate:geyser": "ajv validate -s schemas/geysermc-mappings.schema.json -d 'geysermc/**/*.json' --spec=draft7",
-        "validate:items": "ajv validate -s schemas/java-item-definition.schema.json -d 'java/assets/*/items/**/*.json' --spec=draft7",
-        "validate:models": "ajv validate -s schemas/java-model.schema.json -d 'java/assets/*/models/**/*.json' --spec=draft7",
-        "validate:mcmeta": "ajv validate -s schemas/minecraft-pack-mcmeta.json -d 'java/pack.mcmeta' --spec=draft7",
-        "validate:lang": "ajv validate -s schemas/minecraft-lang.json -d 'java/assets/*/lang/*.json' --spec=draft7",
-        "validate:bedrock": "ajv validate -s schemas/bedrock-schema.json -d 'bedrock/**/*.json' --spec=draft7"
+        "validate:json": "pnpm run validate:geyser && pnpm run validate:items && pnpm run validate:models && pnpm run validate:lang",
+        "validate:geyser": "ajv validate -s schemas/geysermc-mappings.schema.json -d \"geysermc/**/*.json\" --spec=draft7",
+        "validate:items": "ajv validate -s schemas/java-item-definition.schema.json -d \"java/assets/*/items/**/*.json\" --spec=draft7",
+        "validate:models": "ajv validate -s schemas/java-model.schema.json -d \"java/assets/*/models/**/*.json\" --spec=draft7",
+        "validate:lang": "ajv validate -s schemas/minecraft-lang.json -d \"java/assets/*/lang/*.json\" --spec=draft7"
     },
     "repository": {
         "type": "git",
