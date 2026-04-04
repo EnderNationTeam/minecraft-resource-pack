@@ -5,7 +5,6 @@
     "description": "Offizielles EnderNation Resource Pack für Minecraft Java & Bedrock Edition",
     "scripts": {
         "test": "pnpm run validate:json",
-        "prepare": "husky",
         "format": "prettier . --write --ignore-unknown",
         "format:check": "prettier . --check --ignore-unknown",
         "validate:json": "pnpm run validate:geyser && pnpm run validate:items && pnpm run validate:models && pnpm run validate:lang",
