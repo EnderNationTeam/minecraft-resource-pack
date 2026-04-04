@@ -121,11 +121,11 @@
             "category": "player",
             "sounds": ["sounds/snipers/sv98"]
         },
-        "enderguns:hitmarker": {
+        "enderguns:enderguns.hitmarker": {
             "category": "ui",
             "sounds": ["sounds/enderguns/hitmarker"]
         },
-        "enderguns:kill": {
+        "enderguns:enderguns.kill": {
             "category": "ui",
             "sounds": ["sounds/enderguns/kill"]
         }
