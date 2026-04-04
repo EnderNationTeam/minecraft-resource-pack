@@ -1,0 +1,9 @@
+{
+    "format_version": "1.20.20",
+    "sound_definitions": {
+        "example.toot": {
+            "category": "neutral",
+            "sounds": ["sounds/trumpet"]
+        }
+    }
+}
