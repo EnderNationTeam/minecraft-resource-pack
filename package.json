@@ -1,7 +1,7 @@
 {
     "$schema": "https://www.schemastore.org/package.json",
     "name": "minecraft-resource-pack",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Offizielles EnderNation Resource Pack für Minecraft Java & Bedrock Edition",
     "scripts": {
         "test": "pnpm run validate:json",
