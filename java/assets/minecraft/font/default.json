@@ -15,22 +15,22 @@
             "ascent": 7,
             "height": 7,
             "chars": [
-                "\uE000",
-                "\uE001",
-                "\uE002",
-                "\uE003",
-                "\uE004",
-                "\uE005",
-                "\uE006",
-                "\uE007",
-                "\uE008",
-                "\uE009",
-                "\uE010",
-                "\uE011",
-                "\uE012",
-                "\uE013",
-                "\uE014",
-                "\uE015"
+                "\uE200",
+                "\uE201",
+                "\uE202",
+                "\uE203",
+                "\uE204",
+                "\uE205",
+                "\uE206",
+                "\uE207",
+                "\uE208",
+                "\uE209",
+                "\uE210",
+                "\uE211",
+                "\uE212",
+                "\uE213",
+                "\uE214",
+                "\uE215"
             ]
         },
 
@@ -39,28 +39,28 @@
             "file": "endernation:font/tags/general/logos/logo.png",
             "ascent": 50,
             "height": 70,
-            "chars": ["\uE016"]
+            "chars": ["\uE216"]
         },
         {
             "type": "bitmap",
             "file": "endernation:font/tags/general/logos/endernation-community.png",
             "ascent": 15,
             "height": 27,
-            "chars": ["\uE017"]
+            "chars": ["\uE217"]
         },
         {
             "type": "bitmap",
             "file": "endernation:font/tags/general/logos/endoflife.png",
             "ascent": 15,
             "height": 27,
-            "chars": ["\uE018"]
+            "chars": ["\uE218"]
         },
         {
             "type": "bitmap",
             "file": "endernation:font/tags/general/logos/enderguns.png",
             "ascent": 15,
             "height": 27,
-            "chars": ["\uE019"]
+            "chars": ["\uE219"]
         },
 
         {
@@ -68,21 +68,21 @@
             "file": "endernation:font/tags/general/ranks/ehackerlogo.png",
             "ascent": 7,
             "height": 8,
-            "chars": ["\uE01A"]
+            "chars": ["\uE21A"]
         },
         {
             "type": "bitmap",
             "file": "endernation:font/tags/general/ranks/eherologo.png",
             "ascent": 7,
             "height": 8,
-            "chars": ["\uE01B"]
+            "chars": ["\uE21B"]
         },
         {
             "type": "bitmap",
             "file": "endernation:font/tags/general/ranks/ekinglogo.png",
             "ascent": 7,
             "height": 8,
-            "chars": ["\uE01C"]
+            "chars": ["\uE21C"]
         },
 
         {
@@ -90,84 +90,84 @@
             "file": "endernation:font/tags/general/en/scoreboard/coins.png",
             "ascent": 7,
             "height": 8,
-            "chars": ["\uE01D"]
+            "chars": ["\uE21D"]
         },
         {
             "type": "bitmap",
             "file": "endernation:font/tags/general/en/scoreboard/deaths.png",
             "ascent": 7,
             "height": 8,
-            "chars": ["\uE01E"]
+            "chars": ["\uE21E"]
         },
         {
             "type": "bitmap",
             "file": "endernation:font/tags/general/en/scoreboard/kills.png",
             "ascent": 7,
             "height": 8,
-            "chars": ["\uE01F"]
+            "chars": ["\uE21F"]
         },
         {
             "type": "bitmap",
             "file": "endernation:font/tags/general/de/scoreboard/eliminerungen.png",
             "ascent": 7,
             "height": 8,
-            "chars": ["\uE020"]
+            "chars": ["\uE220"]
         },
         {
             "type": "bitmap",
             "file": "endernation:font/tags/general/en/scoreboard/next-map.png",
             "ascent": 7,
             "height": 8,
-            "chars": ["\uE021"]
+            "chars": ["\uE221"]
         },
         {
             "type": "bitmap",
             "file": "endernation:font/tags/general/en/scoreboard/pings.png",
             "ascent": 7,
             "height": 8,
-            "chars": ["\uE022"]
+            "chars": ["\uE222"]
         },
         {
             "type": "bitmap",
             "file": "endernation:font/tags/general/en/scoreboard/rank.png",
             "ascent": 7,
             "height": 8,
-            "chars": ["\uE023"]
+            "chars": ["\uE223"]
         },
         {
             "type": "bitmap",
             "file": "endernation:font/tags/general/de/scoreboard/spielzeit.png",
             "ascent": 7,
             "height": 8,
-            "chars": ["\uE024"]
+            "chars": ["\uE224"]
         },
         {
             "type": "bitmap",
             "file": "endernation:font/tags/general/en/scoreboard/playtime.png",
             "ascent": 7,
             "height": 8,
-            "chars": ["\uE025"]
+            "chars": ["\uE225"]
         },
         {
             "type": "bitmap",
             "file": "endernation:font/tags/general/en/scoreboard/farmer.png",
             "ascent": 7,
             "height": 8,
-            "chars": ["\uE026"]
+            "chars": ["\uE226"]
         },
         {
             "type": "bitmap",
             "file": "endernation:font/tags/general/de/scoreboard/bauer.png",
             "ascent": 7,
             "height": 8,
-            "chars": ["\uE027"]
+            "chars": ["\uE227"]
         },
         {
             "type": "bitmap",
             "file": "endernation:font/tags/general/intl/scoreboard/kd.png",
             "ascent": 7,
             "height": 8,
-            "chars": ["\uE028"]
+            "chars": ["\uE228"]
         },
 
         {
@@ -175,70 +175,70 @@
             "file": "endernation:font/tags/lobby/de/hotbar/inventar.png",
             "ascent": 15,
             "height": 27,
-            "chars": ["\uE029"]
+            "chars": ["\uE229"]
         },
         {
             "type": "bitmap",
             "file": "endernation:font/tags/lobby/en/hotbar/inventory.png",
             "ascent": 15,
             "height": 27,
-            "chars": ["\uE02A"]
+            "chars": ["\uE22A"]
         },
         {
             "type": "bitmap",
             "file": "endernation:font/tags/lobby/de/hotbar/profil.png",
             "ascent": 15,
             "height": 27,
-            "chars": ["\uE02B"]
+            "chars": ["\uE22B"]
         },
         {
             "type": "bitmap",
             "file": "endernation:font/tags/lobby/en/hotbar/profile.png",
             "ascent": 15,
             "height": 27,
-            "chars": ["\uE02C"]
+            "chars": ["\uE22C"]
         },
         {
             "type": "bitmap",
             "file": "endernation:font/tags/lobby/en/hotbar/lobby-switcher.png",
             "ascent": 15,
             "height": 27,
-            "chars": ["\uE02D"]
+            "chars": ["\uE22D"]
         },
         {
             "type": "bitmap",
             "file": "endernation:font/tags/lobby/en/hotbar/player-all.png",
             "ascent": 15,
             "height": 27,
-            "chars": ["\uE02E"]
+            "chars": ["\uE22E"]
         },
         {
             "type": "bitmap",
             "file": "endernation:font/tags/lobby/en/hotbar/player-none.png",
             "ascent": 15,
             "height": 27,
-            "chars": ["\uE02F"]
+            "chars": ["\uE22F"]
         },
         {
             "type": "bitmap",
             "file": "endernation:font/tags/lobby/en/hotbar/player-vips-visible.png",
             "ascent": 15,
             "height": 27,
-            "chars": ["\uE030"]
+            "chars": ["\uE230"]
         },
         {
             "type": "bitmap",
             "file": "endernation:font/tags/lobby/en/hotbar/player-team-visible.png",
             "ascent": 15,
             "height": 27,
-            "chars": ["\uE031"]
+            "chars": ["\uE231"]
         },
         {
             "type": "bitmap",
             "file": "endernation:font/tags/lobby/intl/hotbar/navigator.png",
             "ascent": 15,
             "height": 27,
-            "chars": ["\uE032"]
+            "chars": ["\uE232"]
         },
 
         {
@@ -246,70 +246,70 @@
             "file": "endernation:font/tags/lobby/en/hotbar/uc/trampoline.png",
             "ascent": 15,
             "height": 27,
-            "chars": ["\uE033"]
+            "chars": ["\uE233"]
         },
         {
             "type": "bitmap",
             "file": "endernation:font/tags/lobby/de/hotbar/uc/trampolin.png",
             "ascent": 15,
             "height": 27,
-            "chars": ["\uE034"]
+            "chars": ["\uE234"]
         },
         {
             "type": "bitmap",
             "file": "endernation:font/tags/lobby/en/hotbar/uc/snowball.png",
             "ascent": 15,
             "height": 27,
-            "chars": ["\uE035"]
+            "chars": ["\uE235"]
         },
         {
             "type": "bitmap",
             "file": "endernation:font/tags/lobby/de/hotbar/uc/schneeball.png",
             "ascent": 15,
             "height": 27,
-            "chars": ["\uE036"]
+            "chars": ["\uE236"]
         },
         {
             "type": "bitmap",
             "file": "endernation:font/tags/lobby/en/hotbar/uc/partypopper.png",
             "ascent": 15,
             "height": 27,
-            "chars": ["\uE037"]
+            "chars": ["\uE237"]
         },
         {
             "type": "bitmap",
             "file": "endernation:font/tags/lobby/de/hotbar/uc/konfettikanone.png",
             "ascent": 15,
             "height": 27,
-            "chars": ["\uE038"]
+            "chars": ["\uE238"]
         },
         {
             "type": "bitmap",
             "file": "endernation:font/tags/lobby/en/hotbar/uc/freezecannon.png",
             "ascent": 15,
             "height": 27,
-            "chars": ["\uE039"]
+            "chars": ["\uE239"]
         },
         {
             "type": "bitmap",
             "file": "endernation:font/tags/lobby/de/hotbar/uc/frostkanone.png",
             "ascent": 15,
             "height": 27,
-            "chars": ["\uE03A"]
+            "chars": ["\uE23A"]
         },
         {
             "type": "bitmap",
             "file": "endernation:font/tags/lobby/en/hotbar/uc/christmastree.png",
             "ascent": 15,
             "height": 27,
-            "chars": ["\uE03B"]
+            "chars": ["\uE23B"]
         },
         {
             "type": "bitmap",
             "file": "endernation:font/tags/lobby/de/hotbar/uc/weihnachtsbaum.png",
             "ascent": 15,
             "height": 27,
-            "chars": ["\uE03C"]
+            "chars": ["\uE23C"]
         },
 
         {
@@ -317,7 +317,7 @@
             "file": "endernation:gui/navnew.png",
             "ascent": 19,
             "height": 256,
-            "chars": ["\uE03D"]
+            "chars": ["\uE23D"]
         },
 
         {
@@ -325,14 +325,14 @@
             "file": "endernation:font/tags/general/space.png",
             "ascent": -32768,
             "height": -3,
-            "chars": ["\uE03E"]
+            "chars": ["\uE23E"]
         },
         {
             "type": "bitmap",
             "file": "endernation:font/tags/general/space_split.png",
             "ascent": 1,
             "height": 100,
-            "chars": ["\uE03F"]
+            "chars": ["\uE23F"]
         }
     ]
 }

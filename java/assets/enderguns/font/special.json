@@ -5,7 +5,7 @@
             "file": "enderguns:font/flashbang.png",
             "ascent": 1000,
             "height": 32768,
-            "chars": ["\uE040"]
+            "chars": ["\uE240"]
         }
     ]
 }
