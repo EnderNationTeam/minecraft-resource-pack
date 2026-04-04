@@ -1,0 +1,38 @@
+{
+    "format_version": "1.21.0",
+    "minecraft:attachable": {
+        "description": {
+            "identifier": "enderguns:item/pistols/desert_eagle",
+            "materials": {
+                "default": "entity",
+                "enchanted": "entity_alphatest_glint"
+            },
+            "textures": {
+                "default": "textures/item/pistols/desert_eagle_stitched",
+                "enchanted": "textures/misc/enchanted_item_glint"
+            },
+            "geometry": {
+                "default": "geometry.enderguns.item_pistols_desert_eagle"
+            },
+            "animations": {
+                "head": "animation.enderguns.item_pistols_desert_eagle.head",
+                "third_person": "animation.enderguns.item_pistols_desert_eagle.hold_third_person",
+                "first_person": "animation.enderguns.item_pistols_desert_eagle.hold_first_person"
+            },
+            "scripts": {
+                "animate": [
+                    {
+                        "first_person": "context.is_first_person == 1.0"
+                    },
+                    {
+                        "third_person": "context.is_first_person == 0.0 && context.item_slot != 'head'"
+                    },
+                    {
+                        "head": "context.is_first_person == 0.0 && context.item_slot == 'head'"
+                    }
+                ]
+            },
+            "render_controllers": ["controller.render.item_default"]
+        }
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "format_version": "1.8.0",
+    "animations": {
+        "animation.enderguns.item_rifles_p90.head": {
+            "loop": true,
+            "bones": {
+                "bone": {
+                    "position": [0.0, 28.35125, 0.0],
+                    "rotation": [-0.0, 90.0, 0.0],
+                    "scale": [0.655, 0.655, 0.655]
+                }
+            }
+        },
+        "animation.enderguns.item_rifles_p90.hold_third_person": {
+            "loop": true,
+            "bones": {
+                "bone": {
+                    "position": [1.25, 12.5, -0.0],
+                    "rotation": [90.0, 90.0, 0.0],
+                    "scale": [0.67, 0.67, 0.67]
+                }
+            }
+        },
+        "animation.enderguns.item_rifles_p90.hold_first_person": {
+            "loop": true,
+            "bones": {
+                "bone": {
+                    "position": [-7.0, 24.0, -8.0],
+                    "rotation": [-22.5, -40.0, -32.5],
+                    "scale": [0.82, 0.82, 0.82]
+                }
+            }
+        }
+    }
+}

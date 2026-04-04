@@ -1,0 +1,35 @@
+{
+    "format_version": "1.8.0",
+    "animations": {
+        "animation.enderguns.item_shotguns_striker.hold_first_person": {
+            "loop": true,
+            "bones": {
+                "bone": {
+                    "position": [-7.0, 25.5, -13.25],
+                    "rotation": [-22.5, -40.0, -32.5],
+                    "scale": [0.95, 0.94, 0.94]
+                }
+            }
+        },
+        "animation.enderguns.item_shotguns_striker.head": {
+            "loop": true,
+            "bones": {
+                "bone": {
+                    "position": [0.0, 26.713749, 0.0],
+                    "rotation": [-0.0, 93.0, 7.0],
+                    "scale": [0.655, 0.655, 0.655]
+                }
+            }
+        },
+        "animation.enderguns.item_shotguns_striker.hold_third_person": {
+            "loop": true,
+            "bones": {
+                "bone": {
+                    "position": [-0.0, 9.5, -6.25],
+                    "rotation": [90.0, 90.0, 0.0],
+                    "scale": [0.88, 0.87, 0.87]
+                }
+            }
+        }
+    }
+}

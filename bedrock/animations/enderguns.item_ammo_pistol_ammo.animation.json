@@ -1,0 +1,35 @@
+{
+    "format_version": "1.8.0",
+    "animations": {
+        "animation.enderguns.item_ammo_pistol_ammo.head": {
+            "loop": true,
+            "bones": {
+                "bone": {
+                    "position": [0.0, 27.04125, -3.2749999],
+                    "rotation": [-0.0, 90.0, 0.0],
+                    "scale": [0.655, 0.655, 0.655]
+                }
+            }
+        },
+        "animation.enderguns.item_ammo_pistol_ammo.hold_third_person": {
+            "loop": true,
+            "bones": {
+                "bone": {
+                    "position": [2.0, 10.0, -0.0],
+                    "rotation": [90.0, -180.0, 0.0],
+                    "scale": [0.3, 0.3, 0.3]
+                }
+            }
+        },
+        "animation.enderguns.item_ammo_pistol_ammo.hold_first_person": {
+            "loop": true,
+            "bones": {
+                "bone": {
+                    "position": [-9.5, 28.5, -7.0],
+                    "rotation": [12.5, 50.0, 2.5],
+                    "scale": [0.75, 0.75, 0.75]
+                }
+            }
+        }
+    }
+}

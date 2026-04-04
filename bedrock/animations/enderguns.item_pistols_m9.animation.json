@@ -1,0 +1,35 @@
+{
+    "format_version": "1.8.0",
+    "animations": {
+        "animation.enderguns.item_pistols_m9.head": {
+            "loop": true,
+            "bones": {
+                "bone": {
+                    "position": [-2.9474998, 12.63125, -4.9125],
+                    "rotation": [24.0, -60.0, -47.0],
+                    "scale": [0.655, 0.655, 0.655]
+                }
+            }
+        },
+        "animation.enderguns.item_pistols_m9.hold_third_person": {
+            "loop": true,
+            "bones": {
+                "bone": {
+                    "position": [-0.0, 4.5, 0.75],
+                    "rotation": [90.0, 90.0, 0.0],
+                    "scale": [0.8, 0.8, 0.73]
+                }
+            }
+        },
+        "animation.enderguns.item_pistols_m9.hold_first_person": {
+            "loop": true,
+            "bones": {
+                "bone": {
+                    "position": [-6.0, 23.75, -14.75],
+                    "rotation": [-13.5, -39.0, -27.5],
+                    "scale": [0.78, 0.78, 0.69]
+                }
+            }
+        }
+    }
+}

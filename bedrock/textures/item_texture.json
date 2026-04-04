@@ -1,0 +1,99 @@
+{
+    "resource_pack_name": "endernation",
+    "texture_name": "atlas.items",
+    "texture_data": {
+        "enderguns.item_pistols_five_seven": {
+            "textures": "textures/item/pistols/five_seven"
+        },
+        "enderguns.item_rifles_ak_47": {
+            "textures": "textures/item/rifles/ak_47"
+        },
+        "enderguns.item_ammo_pistol_ammo": {
+            "textures": "textures/item/ammo/pistol_ammo"
+        },
+        "enderguns.item_rifles_fal": {
+            "textures": "textures/item/rifles/fal"
+        },
+        "enderguns.item_utilities_advanced_medikit": {
+            "textures": "textures/item/utilities/advanced_medikit"
+        },
+        "enderguns.item_rifles_p90": {
+            "textures": "textures/item/rifles/p90"
+        },
+        "enderguns.item_pistols_g17": {
+            "textures": "textures/item/pistols/g17"
+        },
+        "enderguns.item_rifles_mp7": {
+            "textures": "textures/item/rifles/mp7"
+        },
+        "enderguns.item_shotguns_m1014": {
+            "textures": "textures/item/shotguns/m1014"
+        },
+        "enderguns.item_shotguns_striker": {
+            "textures": "textures/item/shotguns/striker"
+        },
+        "enderguns.item_ammo_rifle_ammo": {
+            "textures": "textures/item/ammo/rifle_ammo"
+        },
+        "enderguns.item_snipers_m98b": {
+            "textures": "textures/item/snipers/m98b"
+        },
+        "enderguns.item_special_bullet": {
+            "textures": "textures/item/special/bullet"
+        },
+        "enderguns.item_ammo_shotgun_ammo": {
+            "textures": "textures/item/ammo/shotgun_ammo"
+        },
+        "enderguns.item_pistols_desert_eagle": {
+            "textures": "textures/item/pistols/desert_eagle"
+        },
+        "enderguns.item_snipers_cz_550": {
+            "textures": "textures/item/snipers/cz_550"
+        },
+        "enderguns.item_utilities_grenade": {
+            "textures": "textures/item/utilities/grenade"
+        },
+        "enderguns.item_ammo_sniper_ammo": {
+            "textures": "textures/item/ammo/sniper_ammo"
+        },
+        "enderguns.item_utilities_bandage": {
+            "textures": "textures/item/utilities/bandage"
+        },
+        "enderguns.item_utilities_flashbang": {
+            "textures": "textures/item/utilities/flashbang"
+        },
+        "enderguns.item_snipers_msr": {
+            "textures": "textures/item/snipers/msr"
+        },
+        "enderguns.item_snipers_sv98": {
+            "textures": "textures/item/snipers/sv98"
+        },
+        "enderguns.item_pistols_m9": {
+            "textures": "textures/item/pistols/m9"
+        },
+        "enderguns.item_snipers_m39": {
+            "textures": "textures/item/snipers/m39"
+        },
+        "enderguns.item_special_rocket_launcher": {
+            "textures": "textures/item/special/rocket_launcher"
+        },
+        "enderguns.item_rifles_m16": {
+            "textures": "textures/item/rifles/m16"
+        },
+        "enderguns.item_shotguns_spas_12": {
+            "textures": "textures/item/shotguns/spas_12"
+        },
+        "enderguns.item_shotguns_aa_12": {
+            "textures": "textures/item/shotguns/aa_12"
+        },
+        "enderguns.item_shotguns_remington_870": {
+            "textures": "textures/item/shotguns/remington_870"
+        },
+        "enderguns.item_ammo_rocket_launcher_ammo": {
+            "textures": "textures/item/ammo/rocket_launcher_ammo"
+        },
+        "enderguns.item_pistols_m1911": {
+            "textures": "textures/item/pistols/m1911"
+        }
+    }
+}

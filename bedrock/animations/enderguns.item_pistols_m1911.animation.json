@@ -1,0 +1,35 @@
+{
+    "format_version": "1.8.0",
+    "animations": {
+        "animation.enderguns.item_pistols_m1911.hold_first_person": {
+            "loop": true,
+            "bones": {
+                "bone": {
+                    "position": [-7.0, 24.5, -8.75],
+                    "rotation": [-22.5, -40.0, -32.5],
+                    "scale": [0.78, 0.78, 0.69]
+                }
+            }
+        },
+        "animation.enderguns.item_pistols_m1911.head": {
+            "loop": true,
+            "bones": {
+                "bone": {
+                    "position": [0.0, 26.713749, 0.0],
+                    "rotation": [-0.0, 93.0, 7.0],
+                    "scale": [0.655, 0.655, 0.655]
+                }
+            }
+        },
+        "animation.enderguns.item_pistols_m1911.hold_third_person": {
+            "loop": true,
+            "bones": {
+                "bone": {
+                    "position": [-0.0, 9.0, 0.5],
+                    "rotation": [90.0, 90.0, 0.0],
+                    "scale": [0.8, 0.8, 0.71]
+                }
+            }
+        }
+    }
+}

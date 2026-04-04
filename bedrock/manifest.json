@@ -1,18 +1,19 @@
 {
-    "format_version": 1,
+    "format_version": 2,
     "header": {
+        "name": "endernation",
         "description": "§3Ender§bNation §a- §bResource Pack",
-        "name": "prepack",
-        "platform_locked": false,
-        "uuid": "6791afcd-6ff4-4548-917d-77df94ba6c3f",
-        "version": [0, 0, 1]
+        "uuid": "e7fa81b5-b3a9-42cb-9ac6-4ea2b27951c2",
+        "version": [0, 0, 0],
+        "min_engine_version": [1, 21, 0]
     },
     "modules": [
         {
+            "name": "endernation",
             "description": "§3Ender§bNation §a- §bResource Pack",
             "type": "resources",
-            "uuid": "02e6cebc-fa55-4388-8515-8fb56cb34d78",
-            "version": [0, 0, 1]
+            "uuid": "291f1f2a-6be6-4fac-8931-fe98570a73d5",
+            "version": [0, 0, 0]
         }
     ]
 }
