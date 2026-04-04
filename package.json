@@ -27,8 +27,6 @@
     "devDependencies": {
         "ajv-cli": "^5.0.0",
         "ajv-formats": "^3.0.1",
-        "husky": "^9.1.7",
-        "lint-staged": "^16.4.0",
         "prettier": "^3.8.1"
     },
     "engines": {
