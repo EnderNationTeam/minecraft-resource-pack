@@ -1,10 +1,6 @@
 {
     "json.schemas": [
         {
-            "fileMatch": ["bedrock/**/*.json"],
-            "url": "./schemas/bedrock-schema.json"
-        },
-        {
             "fileMatch": ["**/assets/*/sounds.json"],
             "url": "./schemas/sounds.json"
         },

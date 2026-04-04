@@ -1,6 +1,5 @@
 {
     "container.inventory": "",
-    "menu.game": "",
+    "menu.game": "\uE016",
     "menu.disconnect": "§4§lDo you really want to §lleave §r§3§lEnder§b§lNation§4§l?"
-  }
-  
+}
