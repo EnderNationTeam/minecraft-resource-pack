@@ -11,7 +11,7 @@
 
         {
             "type": "bitmap",
-            "file": "endernation:font/tags/general/ranks/ranks.png",
+            "file": "endernation:font/tags/ranks/ranks.png",
             "ascent": 7,
             "height": 7,
             "chars": [
@@ -36,53 +36,76 @@
 
         {
             "type": "bitmap",
-            "file": "endernation:font/tags/general/logos/logo.png",
-            "ascent": 50,
-            "height": 70,
+            "file": "endernation:font/tags/ranks/ehackerlogo.png",
+            "ascent": 7,
+            "height": 8,
             "chars": ["\uE216"]
         },
         {
             "type": "bitmap",
-            "file": "endernation:font/tags/general/logos/endernation-community.png",
-            "ascent": 15,
-            "height": 27,
+            "file": "endernation:font/tags/ranks/eherologo.png",
+            "ascent": 7,
+            "height": 8,
             "chars": ["\uE217"]
         },
         {
             "type": "bitmap",
-            "file": "endernation:font/tags/general/logos/endoflife.png",
-            "ascent": 15,
-            "height": 27,
+            "file": "endernation:font/tags/ranks/ekinglogo.png",
+            "ascent": 7,
+            "height": 8,
             "chars": ["\uE218"]
-        },
-        {
-            "type": "bitmap",
-            "file": "endernation:font/tags/general/logos/enderguns.png",
-            "ascent": 15,
-            "height": 27,
-            "chars": ["\uE219"]
         },
 
         {
             "type": "bitmap",
-            "file": "endernation:font/tags/general/ranks/ehackerlogo.png",
-            "ascent": 7,
-            "height": 8,
+            "file": "endernation:font/tags/logos/logo.png",
+            "ascent": 50,
+            "height": 70,
+            "chars": ["\uE219"]
+        },
+        {
+            "type": "bitmap",
+            "file": "endernation:font/tags/logos/endernation-community.png",
+            "ascent": 15,
+            "height": 27,
             "chars": ["\uE21A"]
         },
         {
             "type": "bitmap",
-            "file": "endernation:font/tags/general/ranks/eherologo.png",
-            "ascent": 7,
-            "height": 8,
+            "file": "endernation:font/tags/logos/endoflife.png",
+            "ascent": 15,
+            "height": 27,
             "chars": ["\uE21B"]
         },
         {
             "type": "bitmap",
-            "file": "endernation:font/tags/general/ranks/ekinglogo.png",
-            "ascent": 7,
-            "height": 8,
+            "file": "endernation:font/tags/logos/enderguns.png",
+            "ascent": 15,
+            "height": 27,
             "chars": ["\uE21C"]
+        },
+
+        {
+            "type": "bitmap",
+            "file": "endernation:font/tags/space.png",
+            "ascent": -32768,
+            "height": -3,
+            "chars": ["\uE21D"]
+        },
+        {
+            "type": "bitmap",
+            "file": "endernation:font/tags/space_split.png",
+            "ascent": 1,
+            "height": 100,
+            "chars": ["\uE21E"]
+        },
+
+        {
+            "type": "bitmap",
+            "file": "lobby:font/gui/nav_games.png",
+            "ascent": 19,
+            "height": 256,
+            "chars": ["\uE23D"]
         },
 
         {
@@ -310,29 +333,6 @@
             "ascent": 15,
             "height": 27,
             "chars": ["\uE23C"]
-        },
-
-        {
-            "type": "bitmap",
-            "file": "endernation:gui/navnew.png",
-            "ascent": 19,
-            "height": 256,
-            "chars": ["\uE23D"]
-        },
-
-        {
-            "type": "bitmap",
-            "file": "endernation:font/tags/general/space.png",
-            "ascent": -32768,
-            "height": -3,
-            "chars": ["\uE23E"]
-        },
-        {
-            "type": "bitmap",
-            "file": "endernation:font/tags/general/space_split.png",
-            "ascent": 1,
-            "height": 100,
-            "chars": ["\uE23F"]
         }
     ]
 }
