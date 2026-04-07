@@ -130,6 +130,7 @@ def main() -> None:
                     src_path,
                     "-crop", f"{cell_w}x{cell_h}+{crop_x}+{crop_y}",
                     "+repage",
+                    "-trim", "+repage",                  # strip transparent border so content is centered
                     "-filter", "Point",
                     "-resize", f"{CELL}x{CELL}>",        # shrink-only, keep AR, nearest-neighbor
                     "-background", "none",
