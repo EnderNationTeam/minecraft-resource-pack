@@ -269,7 +269,7 @@
 
         {
             "type": "bitmap",
-            "file": "lobby:font/scoreboard/en/pings.png",
+            "file": "lobby:font/scoreboard/en/ping.png",
             "ascent": 7,
             "height": 8,
             "chars": ["\uE236"]
