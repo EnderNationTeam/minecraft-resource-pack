@@ -105,234 +105,262 @@
             "file": "lobby:font/gui/nav_games.png",
             "ascent": 19,
             "height": 256,
-            "chars": ["\uE23D"]
+            "chars": ["\uE21F"]
         },
 
         {
             "type": "bitmap",
-            "file": "endernation:font/tags/general/en/scoreboard/coins.png",
-            "ascent": 7,
-            "height": 8,
-            "chars": ["\uE21D"]
-        },
-        {
-            "type": "bitmap",
-            "file": "endernation:font/tags/general/en/scoreboard/deaths.png",
-            "ascent": 7,
-            "height": 8,
-            "chars": ["\uE21E"]
-        },
-        {
-            "type": "bitmap",
-            "file": "endernation:font/tags/general/en/scoreboard/kills.png",
-            "ascent": 7,
-            "height": 8,
-            "chars": ["\uE21F"]
-        },
-        {
-            "type": "bitmap",
-            "file": "endernation:font/tags/general/de/scoreboard/eliminerungen.png",
-            "ascent": 7,
-            "height": 8,
+            "file": "lobby:font/hotbar/de/inventar.png",
+            "ascent": 15,
+            "height": 27,
             "chars": ["\uE220"]
         },
         {
             "type": "bitmap",
-            "file": "endernation:font/tags/general/en/scoreboard/next-map.png",
-            "ascent": 7,
-            "height": 8,
+            "file": "lobby:font/hotbar/de/lobby-wechsler.png",
+            "ascent": 15,
+            "height": 27,
             "chars": ["\uE221"]
         },
         {
             "type": "bitmap",
-            "file": "endernation:font/tags/general/en/scoreboard/pings.png",
-            "ascent": 7,
-            "height": 8,
+            "file": "lobby:font/tags/hotbar/de/profil.png",
+            "ascent": 15,
+            "height": 27,
             "chars": ["\uE222"]
-        },
-        {
-            "type": "bitmap",
-            "file": "endernation:font/tags/general/en/scoreboard/rank.png",
-            "ascent": 7,
-            "height": 8,
-            "chars": ["\uE223"]
-        },
-        {
-            "type": "bitmap",
-            "file": "endernation:font/tags/general/de/scoreboard/spielzeit.png",
-            "ascent": 7,
-            "height": 8,
-            "chars": ["\uE224"]
-        },
-        {
-            "type": "bitmap",
-            "file": "endernation:font/tags/general/en/scoreboard/playtime.png",
-            "ascent": 7,
-            "height": 8,
-            "chars": ["\uE225"]
-        },
-        {
-            "type": "bitmap",
-            "file": "endernation:font/tags/general/en/scoreboard/farmer.png",
-            "ascent": 7,
-            "height": 8,
-            "chars": ["\uE226"]
-        },
-        {
-            "type": "bitmap",
-            "file": "endernation:font/tags/general/de/scoreboard/bauer.png",
-            "ascent": 7,
-            "height": 8,
-            "chars": ["\uE227"]
-        },
-        {
-            "type": "bitmap",
-            "file": "endernation:font/tags/general/intl/scoreboard/kd.png",
-            "ascent": 7,
-            "height": 8,
-            "chars": ["\uE228"]
         },
 
         {
             "type": "bitmap",
-            "file": "endernation:font/tags/lobby/de/hotbar/inventar.png",
+            "file": "lobby:font/tags/hotbar/de/uc/frostkanone.png",
+            "ascent": 15,
+            "height": 27,
+            "chars": ["\uE223"]
+        },
+        {
+            "type": "bitmap",
+            "file": "lobby:font/tags/hotbar/de/uc/konfettikanone.png",
+            "ascent": 15,
+            "height": 27,
+            "chars": ["\uE224"]
+        },
+        {
+            "type": "bitmap",
+            "file": "lobby:font/tags/hotbar/de/uc/schneeball.png",
+            "ascent": 15,
+            "height": 27,
+            "chars": ["\uE225"]
+        },
+        {
+            "type": "bitmap",
+            "file": "lobby:font/tags/hotbar/de/uc/trampolin.png",
+            "ascent": 15,
+            "height": 27,
+            "chars": ["\uE226"]
+        },
+        {
+            "type": "bitmap",
+            "file": "lobby:font/tags/hotbar/de/uc/weihnachtsbaum.png",
+            "ascent": 15,
+            "height": 27,
+            "chars": ["\uE227"]
+        },
+
+        {
+            "type": "bitmap",
+            "file": "lobby:font/tags/hotbar/en/inventory.png",
+            "ascent": 15,
+            "height": 27,
+            "chars": ["\uE228"]
+        },
+        {
+            "type": "bitmap",
+            "file": "lobby:font/tags/hotbar/en/lobby-switcher.png",
             "ascent": 15,
             "height": 27,
             "chars": ["\uE229"]
         },
         {
             "type": "bitmap",
-            "file": "endernation:font/tags/lobby/en/hotbar/inventory.png",
+            "file": "lobby:font/tags/hotbar/en/navigator.png",
             "ascent": 15,
             "height": 27,
             "chars": ["\uE22A"]
         },
         {
             "type": "bitmap",
-            "file": "endernation:font/tags/lobby/de/hotbar/profil.png",
+            "file": "lobby:font/tags/hotbar/en/player-all.png",
             "ascent": 15,
             "height": 27,
             "chars": ["\uE22B"]
         },
         {
             "type": "bitmap",
-            "file": "endernation:font/tags/lobby/en/hotbar/profile.png",
+            "file": "lobby:font/tags/hotbar/en/player-none.png",
             "ascent": 15,
             "height": 27,
             "chars": ["\uE22C"]
         },
         {
             "type": "bitmap",
-            "file": "endernation:font/tags/lobby/en/hotbar/lobby-switcher.png",
+            "file": "lobby:font/tags/hotbar/en/player-vips-visible.png",
             "ascent": 15,
             "height": 27,
             "chars": ["\uE22D"]
         },
         {
             "type": "bitmap",
-            "file": "endernation:font/tags/lobby/en/hotbar/player-all.png",
+            "file": "lobby:font/tags/hotbar/en/player-team-visible.png",
             "ascent": 15,
             "height": 27,
             "chars": ["\uE22E"]
         },
         {
             "type": "bitmap",
-            "file": "endernation:font/tags/lobby/en/hotbar/player-none.png",
+            "file": "lobby:font/tags/hotbar/en/profile.png",
             "ascent": 15,
             "height": 27,
             "chars": ["\uE22F"]
         },
+
         {
             "type": "bitmap",
-            "file": "endernation:font/tags/lobby/en/hotbar/player-vips-visible.png",
+            "file": "lobby:font/tags/hotbar/en/uc/christmastree.png",
             "ascent": 15,
             "height": 27,
             "chars": ["\uE230"]
         },
         {
             "type": "bitmap",
-            "file": "endernation:font/tags/lobby/en/hotbar/player-team-visible.png",
+            "file": "lobby:font/tags/hotbar/en/uc/freezecannon.png",
             "ascent": 15,
             "height": 27,
             "chars": ["\uE231"]
         },
         {
             "type": "bitmap",
-            "file": "endernation:font/tags/lobby/intl/hotbar/navigator.png",
+            "file": "lobby:font/tags/hotbar/en/uc/partypopper.png",
             "ascent": 15,
             "height": 27,
             "chars": ["\uE232"]
         },
-
         {
             "type": "bitmap",
-            "file": "endernation:font/tags/lobby/en/hotbar/uc/trampoline.png",
+            "file": "lobby:font/tags/hotbar/en/uc/snowball.png",
             "ascent": 15,
             "height": 27,
             "chars": ["\uE233"]
         },
         {
             "type": "bitmap",
-            "file": "endernation:font/tags/lobby/de/hotbar/uc/trampolin.png",
+            "file": "lobby:font/tags/hotbar/en/uc/trampoline.png",
             "ascent": 15,
             "height": 27,
             "chars": ["\uE234"]
         },
+
         {
             "type": "bitmap",
-            "file": "endernation:font/tags/lobby/en/hotbar/uc/snowball.png",
-            "ascent": 15,
-            "height": 27,
+            "file": "lobby:font/scoreboard/de/spielzeit.png",
+            "ascent": 7,
+            "height": 8,
             "chars": ["\uE235"]
         },
+
         {
             "type": "bitmap",
-            "file": "endernation:font/tags/lobby/de/hotbar/uc/schneeball.png",
-            "ascent": 15,
-            "height": 27,
+            "file": "lobby:font/scoreboard/en/pings.png",
+            "ascent": 7,
+            "height": 8,
             "chars": ["\uE236"]
         },
         {
             "type": "bitmap",
-            "file": "endernation:font/tags/lobby/en/hotbar/uc/partypopper.png",
-            "ascent": 15,
-            "height": 27,
+            "file": "lobby:font/scoreboard/en/playtime.png",
+            "ascent": 7,
+            "height": 8,
             "chars": ["\uE237"]
         },
         {
             "type": "bitmap",
-            "file": "endernation:font/tags/lobby/de/hotbar/uc/konfettikanone.png",
-            "ascent": 15,
-            "height": 27,
+            "file": "lobby:font/scoreboard/en/rank.png",
+            "ascent": 7,
+            "height": 8,
             "chars": ["\uE238"]
         },
+
         {
             "type": "bitmap",
-            "file": "endernation:font/tags/lobby/en/hotbar/uc/freezecannon.png",
-            "ascent": 15,
-            "height": 27,
+            "file": "enderguns:font/flashbang.png",
+            "ascent": 1000,
+            "height": 32768,
             "chars": ["\uE239"]
         },
+
         {
             "type": "bitmap",
-            "file": "endernation:font/tags/lobby/de/hotbar/uc/frostkanone.png",
-            "ascent": 15,
-            "height": 27,
+            "file": "enderguns:font/scoreboard/de/eliminerungen.png",
+            "ascent": 7,
+            "height": 8,
             "chars": ["\uE23A"]
         },
         {
             "type": "bitmap",
-            "file": "endernation:font/tags/lobby/en/hotbar/uc/christmastree.png",
-            "ascent": 15,
-            "height": 27,
+            "file": "enderguns:font/scoreboard/de/muenzen.png",
+            "ascent": 7,
+            "height": 8,
             "chars": ["\uE23B"]
+        },
+
+        {
+            "type": "bitmap",
+            "file": "enderguns:font/scoreboard/en/coins.png",
+            "ascent": 7,
+            "height": 8,
+            "chars": ["\uE23C"]
         },
         {
             "type": "bitmap",
-            "file": "endernation:font/tags/lobby/de/hotbar/uc/weihnachtsbaum.png",
-            "ascent": 15,
-            "height": 27,
-            "chars": ["\uE23C"]
+            "file": "enderguns:font/scoreboard/en/deaths.png",
+            "ascent": 7,
+            "height": 8,
+            "chars": ["\uE23D"]
+        },
+        {
+            "type": "bitmap",
+            "file": "enderguns:font/scoreboard/en/kills.png",
+            "ascent": 7,
+            "height": 8,
+            "chars": ["\uE23E"]
+        },
+        {
+            "type": "bitmap",
+            "file": "enderguns:font/scoreboard/en/kd.png",
+            "ascent": 7,
+            "height": 8,
+            "chars": ["\uE23F"]
+        },
+        {
+            "type": "bitmap",
+            "file": "enderguns:font/scoreboard/en/next-map.png",
+            "ascent": 7,
+            "height": 8,
+            "chars": ["\uE240"]
+        },
+
+        {
+            "type": "bitmap",
+            "file": "endoflife:font/scoreboard/en/farmer.png",
+            "ascent": 7,
+            "height": 8,
+            "chars": ["\uE241"]
+        },
+        {
+            "type": "bitmap",
+            "file": "endoflife:font/scoreboard/de/bauer.png",
+            "ascent": 7,
+            "height": 8,
+            "chars": ["\uE242"]
         }
     ]
 }
