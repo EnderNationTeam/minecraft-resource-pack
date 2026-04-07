@@ -17,6 +17,7 @@ import shutil
 import subprocess
 import sys
 import tempfile
+from typing import Optional
 
 REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 FONT_JSON = os.path.join(REPO_ROOT, "java/assets/minecraft/font/default.json")
@@ -28,7 +29,7 @@ GRID     = 16
 IMG_SIZE = CELL * GRID
 
 
-def resolve_java_texture(file_ref: str) -> str | None:
+def resolve_java_texture(file_ref: str) -> Optional[str]:
     """Resolve a 'namespace:path' font file reference to an absolute path."""
     ns, rel = file_ref.split(":", 1)
     path = os.path.join(JAVA_ASSETS, ns, "textures", rel)
