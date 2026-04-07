@@ -4,7 +4,7 @@
         "name": "endernation",
         "description": "§3Ender§bNation §a- §bResource Pack",
         "uuid": "e7fa81b5-b3a9-42cb-9ac6-4ea2b27951c2",
-        "version": [1, 0, 3],
+        "version": [1, 0, 4],
         "min_engine_version": [1, 21, 0]
     },
     "modules": [
@@ -13,7 +13,7 @@
             "description": "§3Ender§bNation §a- §bResource Pack",
             "type": "resources",
             "uuid": "291f1f2a-6be6-4fac-8931-fe98570a73d5",
-            "version": [1, 0, 3]
+            "version": [1, 0, 4]
         }
     ]
 }
