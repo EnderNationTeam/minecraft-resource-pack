@@ -1,7 +1,7 @@
 {
     "format_version": 2,
     "items": {
-        "minecraft:stone": [
+        "minecraft:crossbow": [
             {
                 "bedrock_identifier": "enderguns:item/ammo/pistol_ammo",
                 "model": "enderguns:item/ammo/pistol_ammo",
