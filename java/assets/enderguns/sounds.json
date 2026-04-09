@@ -62,10 +62,10 @@
     "snipers.sv98": {
         "sounds": ["enderguns:snipers/sv98"]
     },
-    "enderguns.hitmarker": {
-        "sounds": ["enderguns:enderguns/hitmarker"]
+    "hitmarker": {
+        "sounds": ["enderguns:hitmarker"]
     },
-    "enderguns.kill": {
-        "sounds": ["enderguns:enderguns/kill"]
+    "kill": {
+        "sounds": ["enderguns:kill"]
     }
 }

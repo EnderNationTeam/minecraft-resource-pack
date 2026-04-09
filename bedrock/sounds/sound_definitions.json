@@ -3,129 +3,129 @@
     "sound_definitions": {
         "endernation:notification.info": {
             "category": "ui",
-            "sounds": ["sounds/notification/info"]
+            "sounds": ["sounds/endernation/notification/info"]
         },
         "endernation:notification.report": {
             "category": "ui",
-            "sounds": ["sounds/notification/report"]
+            "sounds": ["sounds/endernation/notification/report"]
         },
         "endernation:notification.warn": {
             "category": "ui",
-            "sounds": ["sounds/notification/warn"]
+            "sounds": ["sounds/endernation/notification/warn"]
         },
         "endernation:notification.error": {
             "category": "ui",
-            "sounds": ["sounds/notification/error"]
+            "sounds": ["sounds/endernation/notification/error"]
         },
         "endernation:music.wait": {
             "category": "music",
-            "sounds": ["sounds/music/wait"]
+            "sounds": ["sounds/endernation/music/wait"]
         },
         "endernation:music.never": {
             "category": "music",
-            "sounds": ["sounds/music/never"]
+            "sounds": ["sounds/endernation/music/never"]
         },
         "endernation:board.scare": {
             "category": "ambient",
-            "sounds": ["sounds/board/scare"]
+            "sounds": ["sounds/endernation/board/scare"]
         },
         "endernation:board.ssstik": {
             "category": "ambient",
-            "sounds": ["sounds/board/ssstik"]
+            "sounds": ["sounds/endernation/board/ssstik"]
         },
         "endernation:board.demonic": {
             "category": "ambient",
-            "sounds": ["sounds/board/demonic"]
+            "sounds": ["sounds/endernation/board/demonic"]
         },
         "enderguns:utilities.flashbang": {
             "category": "player",
-            "sounds": ["sounds/utilities/flashbang"]
+            "sounds": ["sounds/enderguns/utilities/flashbang"]
         },
         "enderguns:pistols.deserteagle": {
             "category": "player",
-            "sounds": ["sounds/pistols/deserteagle"]
+            "sounds": ["sounds/enderguns/pistols/deserteagle"]
         },
         "enderguns:pistols.fiveseven": {
             "category": "player",
-            "sounds": ["sounds/pistols/fiveseven"]
+            "sounds": ["sounds/enderguns/pistols/fiveseven"]
         },
         "enderguns:pistols.g17": {
             "category": "player",
-            "sounds": ["sounds/pistols/g17"]
+            "sounds": ["sounds/enderguns/pistols/g17"]
         },
         "enderguns:pistols.m9": {
             "category": "player",
-            "sounds": ["sounds/pistols/m9"]
+            "sounds": ["sounds/enderguns/pistols/m9"]
         },
         "enderguns:pistols.m1911": {
             "category": "player",
-            "sounds": ["sounds/pistols/m1911"]
+            "sounds": ["sounds/enderguns/pistols/m1911"]
         },
         "enderguns:rifles.ak47": {
             "category": "player",
-            "sounds": ["sounds/rifles/ak47"]
+            "sounds": ["sounds/enderguns/rifles/ak47"]
         },
         "enderguns:rifles.fal": {
             "category": "player",
-            "sounds": ["sounds/rifles/fal"]
+            "sounds": ["sounds/enderguns/rifles/fal"]
         },
         "enderguns:rifles.m16": {
             "category": "player",
-            "sounds": ["sounds/rifles/m16"]
+            "sounds": ["sounds/enderguns/rifles/m16"]
         },
         "enderguns:rifles.mp7": {
             "category": "player",
-            "sounds": ["sounds/rifles/mp7"]
+            "sounds": ["sounds/enderguns/rifles/mp7"]
         },
         "enderguns:rifles.p90": {
             "category": "player",
-            "sounds": ["sounds/rifles/p90"]
+            "sounds": ["sounds/enderguns/rifles/p90"]
         },
         "enderguns:shotguns.aa12": {
             "category": "player",
-            "sounds": ["sounds/shotguns/aa12"]
+            "sounds": ["sounds/enderguns/shotguns/aa12"]
         },
         "enderguns:shotguns.m1014": {
             "category": "player",
-            "sounds": ["sounds/shotguns/m1014"]
+            "sounds": ["sounds/enderguns/shotguns/m1014"]
         },
         "enderguns:shotguns.remington870": {
             "category": "player",
-            "sounds": ["sounds/shotguns/remington870"]
+            "sounds": ["sounds/enderguns/shotguns/remington870"]
         },
         "enderguns:shotguns.spas12": {
             "category": "player",
-            "sounds": ["sounds/shotguns/spas12"]
+            "sounds": ["sounds/enderguns/shotguns/spas12"]
         },
         "enderguns:shotguns.striker": {
             "category": "player",
-            "sounds": ["sounds/shotguns/striker"]
+            "sounds": ["sounds/enderguns/shotguns/striker"]
         },
         "enderguns:snipers.cz550": {
             "category": "player",
-            "sounds": ["sounds/snipers/cz550"]
+            "sounds": ["sounds/enderguns/snipers/cz550"]
         },
         "enderguns:snipers.m39": {
             "category": "player",
-            "sounds": ["sounds/snipers/m39"]
+            "sounds": ["sounds/enderguns/snipers/m39"]
         },
         "enderguns:snipers.m98b": {
             "category": "player",
-            "sounds": ["sounds/snipers/m98b"]
+            "sounds": ["sounds/enderguns/snipers/m98b"]
         },
         "enderguns:snipers.msr": {
             "category": "player",
-            "sounds": ["sounds/snipers/msr"]
+            "sounds": ["sounds/enderguns/snipers/msr"]
         },
         "enderguns:snipers.sv98": {
             "category": "player",
-            "sounds": ["sounds/snipers/sv98"]
+            "sounds": ["sounds/enderguns/snipers/sv98"]
         },
-        "enderguns:enderguns.hitmarker": {
+        "enderguns:hitmarker": {
             "category": "ui",
             "sounds": ["sounds/enderguns/hitmarker"]
         },
-        "enderguns:enderguns.kill": {
+        "enderguns:kill": {
             "category": "ui",
             "sounds": ["sounds/enderguns/kill"]
         }
