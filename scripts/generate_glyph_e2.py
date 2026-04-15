@@ -24,10 +24,11 @@ FONT_JSON = os.path.join(REPO_ROOT, "java/assets/minecraft/font/default.json")
 OUTPUT    = os.path.join(REPO_ROOT, "bedrock/font/glyph_E2.png")
 JAVA_ASSETS = os.path.join(REPO_ROOT, "java/assets")
 
-CELL     = 75
+CELL     = 160
 GRID     = 16
 IMG_SIZE = CELL * GRID
-
+MAX_UPSCALE = 2.0
+MIN_SCALABLE_DIMENSION = 2
 
 def resolve_java_texture(file_ref: str) -> Optional[str]:
     """Resolve a 'namespace:path' font file reference to an absolute path."""
@@ -50,6 +51,38 @@ def get_image_dimensions(path: str) -> tuple[int, int]:
     )
     w, h = result.stdout.strip().split("x")
     return int(w), int(h)
+
+
+def get_trimmed_dimensions(src_path: str, crop: tuple[int, int, int, int]) -> tuple[int, int]:
+    cell_w, cell_h, crop_x, crop_y = crop
+    result = subprocess.run(
+        [
+            "magick",
+            src_path,
+            "-crop", f"{cell_w}x{cell_h}+{crop_x}+{crop_y}",
+            "+repage",
+            "-trim",
+            "+repage",
+            "-format", "%wx%h",
+            "info:",
+        ],
+        capture_output=True, text=True, check=True,
+    )
+    width, height = result.stdout.strip().split("x")
+    return int(width), int(height)
+
+
+def get_target_dimensions(trimmed_w: int, trimmed_h: int) -> tuple[int, int]:
+    if trimmed_w <= MIN_SCALABLE_DIMENSION and trimmed_h <= MIN_SCALABLE_DIMENSION:
+        return trimmed_w, trimmed_h
+
+    scale = min(CELL / trimmed_w, CELL / trimmed_h)
+    if scale > 1:
+        scale = min(scale, MAX_UPSCALE)
+
+    target_w = max(1, round(trimmed_w * scale))
+    target_h = max(1, round(trimmed_h * scale))
+    return target_w, target_h
 
 
 def collect_e2_glyphs(font_data: dict) -> dict[int, dict]:
@@ -84,6 +117,10 @@ def composite_glyph(canvas: str, src_path: str, crop: tuple[int, int, int, int],
                     dest: tuple[int, int], output: str) -> None:
     cell_w, cell_h, crop_x, crop_y = crop
     dest_x, dest_y = dest
+    trimmed_w, trimmed_h = get_trimmed_dimensions(src_path, crop)
+    target_w, target_h = get_target_dimensions(trimmed_w, trimmed_h)
+    offset_x = dest_x + max(0, (CELL - target_w) // 2)
+    offset_y = dest_y + max(0, (CELL - target_h) // 2)
     magick(
         canvas,
         "(",
@@ -92,13 +129,11 @@ def composite_glyph(canvas: str, src_path: str, crop: tuple[int, int, int, int],
             "+repage",
             "-trim", "+repage",
             "-filter", "Point",
-            "-resize", f"{CELL}x{CELL}>",
+            "-resize", f"{target_w}x{target_h}!",
             "-background", "none",
-            "-gravity", "Center",
-            "-extent", f"{CELL}x{CELL}",
         ")",
         "-gravity", "NorthWest",
-        "-geometry", f"+{dest_x}+{dest_y}",
+        "-geometry", f"+{offset_x}+{offset_y}",
         "-composite",
         "-type", "TrueColorAlpha", "-define", "png:color-type=6",
         output,
